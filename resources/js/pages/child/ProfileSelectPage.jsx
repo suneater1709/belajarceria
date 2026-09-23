@@ -120,10 +120,12 @@ export default function ProfileSelectPage() {
         <ParallaxBackground moduleColor="#8B5CF6">
             <div className="flex-1 flex flex-col items-center justify-center p-4 sm:p-6 max-w-5xl mx-auto w-full">
                 {/* Judul & Maskot Sambutan */}
-                <div className="text-center mb-6 sm:mb-8">
-                    <div className="inline-flex items-center justify-center w-20 h-20 sm:w-24 sm:h-24 rounded-3xl bg-gradient-to-tr from-amber-400 to-orange-400 text-4xl sm:text-5xl shadow-xl shadow-orange-200 mb-3 animate-bounce-short">
-                        🦉
-                    </div>
+                <div className="text-center mb-6 sm:mb-8 flex flex-col items-center">
+                    <img 
+                        src="/belajarceria.png" 
+                        alt="Logo BelajarCeria" 
+                        className="w-20 h-20 sm:w-24 sm:h-24 object-contain rounded-3xl bg-white/80 p-2 shadow-xl shadow-orange-200/80 mb-3 animate-bounce-short border-2 border-amber-200/60" 
+                    />
                     <h1 className="text-3xl sm:text-5xl font-extrabold text-[#2E2A4A] font-heading tracking-tight">
                         Halo Sahabat Ceria!
                     </h1>

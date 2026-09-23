@@ -3,7 +3,8 @@ import { useNavigate, Link } from 'react-router-dom';
 import { 
     LayoutDashboard, Layers, HelpCircle, BookOpen, Users, Award, 
     LogOut, Plus, Trash2, Edit, CheckCircle, XCircle, AlertCircle, 
-    Loader2, Eye, Upload, Image as ImageIcon, X, Sparkles, ArrowLeft, RotateCcw
+    Loader2, Eye, Upload, Image as ImageIcon, X, Sparkles, ArrowLeft, RotateCcw,
+    Menu
 } from 'lucide-react';
 import ConfirmationModal from '../../components/common/ConfirmationModal';
 import BadgeIcon from '../../components/common/BadgeIcon';
@@ -31,6 +32,7 @@ const BADGE_ICONS = [
 export default function AdminDashboardPage() {
     const navigate = useNavigate();
     const [activeTab, setActiveTab] = useState('overview');
+    const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
     // Data State
     const [summary, setSummary] = useState(null);
@@ -941,83 +943,180 @@ export default function AdminDashboardPage() {
     };
 
     return (
-        <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex flex-col">
-            {/* Top Bar Admin (Bright & Soft Header) */}
-            <header className="bg-white border-b border-slate-200/80 px-4 sm:px-6 py-3.5 flex items-center justify-between sticky top-0 z-30 shadow-xs">
-                <div className="flex items-center space-x-3">
-                    <Link 
-                        to="/belajarceria" 
-                        onClick={() => sound.playPop()}
-                        className="w-10 h-10 rounded-2xl bg-indigo-600 flex items-center justify-center font-bold text-white shadow-md shadow-indigo-200 hover:scale-105 transition-transform"
-                        title="Ke Area Belajar Anak"
-                    >
-                        ⚡
-                    </Link>
-                    <div>
-                        <h1 className="text-base font-black font-heading tracking-wide text-[#2E2A4A]">
-                            BelajarCeria Admin CMS
-                        </h1>
-                        <span className="text-[11px] text-slate-500 font-semibold">
-                            Single Admin Role Management
-                        </span>
+        <div className="min-h-screen bg-[#F8FAFC] text-slate-800 flex overflow-x-hidden">
+            {/* Mobile Backdrop Overlay */}
+            {isSidebarOpen && (
+                <div 
+                    className="fixed inset-0 bg-slate-900/50 backdrop-blur-xs z-40 lg:hidden transition-opacity duration-200"
+                    onClick={() => setIsSidebarOpen(false)}
+                />
+            )}
+
+            {/* Sidebar Left (Responsive: Drawer on Mobile, Sticky Column on Desktop) */}
+            <aside className={`
+                fixed inset-y-0 left-0 z-50 w-64 sm:w-72 bg-white border-r border-slate-200/80 flex flex-col justify-between shadow-2xl lg:shadow-none transition-transform duration-300 ease-in-out
+                lg:static lg:translate-x-0 lg:z-auto lg:shrink-0
+                ${isSidebarOpen ? 'translate-x-0' : '-translate-x-full'}
+            `}>
+                <div className="flex flex-col flex-1 overflow-y-auto">
+                    {/* Brand Header */}
+                    <div className="h-16 sm:h-20 px-5 sm:px-6 flex items-center justify-between border-b border-slate-100 bg-white sticky top-0 z-10">
+                        <Link 
+                            to="/belajarceria" 
+                            onClick={() => sound.playPop()}
+                            className="flex items-center space-x-3 group min-w-0"
+                            title="Ke Area Belajar Anak"
+                        >
+                            <div className="w-10 h-10 rounded-2xl bg-indigo-50 border border-indigo-100 flex items-center justify-center shadow-md shadow-indigo-100 group-hover:scale-105 transition-transform overflow-hidden p-0.5 shrink-0">
+                                <img 
+                                    src="/belajarceria.png" 
+                                    alt="Logo BelajarCeria" 
+                                    className="w-full h-full object-contain" 
+                                />
+                            </div>
+                            <div className="min-w-0">
+                                <h1 className="text-base font-black font-heading tracking-wide text-[#2E2A4A] group-hover:text-indigo-600 transition-colors truncate">
+                                    BelajarCeria
+                                </h1>
+                                <span className="text-[10px] uppercase font-extrabold tracking-widest text-indigo-600 bg-indigo-50 px-2 py-0.5 rounded-full inline-block">
+                                    CMS Admin
+                                </span>
+                            </div>
+                        </Link>
+
+                        {/* Close button for mobile */}
+                        <button
+                            type="button"
+                            onClick={() => setIsSidebarOpen(false)}
+                            className="lg:hidden p-1.5 rounded-xl text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition cursor-pointer"
+                            title="Tutup Menu"
+                        >
+                            <X className="w-5 h-5" />
+                        </button>
                     </div>
+
+                    {/* Navigation list */}
+                    <nav className="p-3 sm:p-4 space-y-1.5 flex-1">
+                        <p className="px-3 text-[11px] font-bold text-slate-400 uppercase tracking-wider mb-2">
+                            Menu Navigasi
+                        </p>
+                        {[
+                            { id: 'overview', label: 'Ringkasan', icon: LayoutDashboard },
+                            { id: 'modules', label: '7 Modul & Topik', icon: Layers },
+                            { id: 'questions', label: 'Bank Soal CMS', icon: HelpCircle },
+                            { id: 'stories', label: 'Buku Cerita Digital', icon: BookOpen },
+                            { id: 'users', label: 'Data Pengguna', icon: Users },
+                            { id: 'badges', label: 'Master Lencana', icon: Award },
+                        ].map(tab => {
+                            const Icon = tab.icon;
+                            const isActive = activeTab === tab.id;
+                            return (
+                                <button
+                                    key={tab.id}
+                                    onClick={() => {
+                                        handleTabChange(tab.id);
+                                        setIsSidebarOpen(false);
+                                    }}
+                                    className={`w-full px-3.5 py-3 rounded-2xl text-xs font-bold transition-all flex items-center justify-between group cursor-pointer ${
+                                        isActive 
+                                            ? 'bg-gradient-to-r from-indigo-600 to-indigo-700 text-white shadow-lg shadow-indigo-200' 
+                                            : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
+                                        }`}
+                                >
+                                    <div className="flex items-center space-x-3 min-w-0">
+                                        <div className={`w-8 h-8 rounded-xl flex items-center justify-center shrink-0 transition-colors ${
+                                            isActive ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-500 group-hover:bg-indigo-50 group-hover:text-indigo-600'
+                                        }`}>
+                                            <Icon className="w-4 h-4" />
+                                        </div>
+                                        <span className="font-heading tracking-wide text-sm truncate">{tab.label}</span>
+                                    </div>
+                                    {isActive && (
+                                        <span className="w-2 h-2 rounded-full bg-white animate-pulse shrink-0 ml-2" />
+                                    )}
+                                </button>
+                            );
+                        })}
+                    </nav>
                 </div>
 
-                <div className="flex items-center space-x-2">
+                {/* Sidebar Footer */}
+                <div className="p-3 sm:p-4 border-t border-slate-100 bg-slate-50/70 space-y-2 shrink-0">
                     <Link
                         to="/belajarceria"
                         onClick={() => sound.playPop()}
-                        className="px-3 py-1.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-bold transition-colors hidden sm:flex items-center space-x-1"
+                        className="w-full py-2.5 px-3 rounded-xl bg-white hover:bg-indigo-50 border border-slate-200/80 hover:border-indigo-200 text-slate-700 hover:text-indigo-700 text-xs font-bold transition-all flex items-center justify-center space-x-2 shadow-2xs"
                     >
-                        <ArrowLeft className="w-3.5 h-3.5" />
-                        <span>Area Bermain</span>
+                        <ArrowLeft className="w-4 h-4 text-indigo-500" />
+                        <span>Area Bermain Anak</span>
                     </Link>
 
                     <button
                         onClick={() => { sound.playPop(); setIsLogoutOpen(true); }}
-                        className="p-2 rounded-xl text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition-colors cursor-pointer"
-                        title="Logout Admin"
+                        className="w-full py-2.5 px-3 rounded-xl hover:bg-rose-50 border border-transparent hover:border-rose-200 text-slate-500 hover:text-rose-600 text-xs font-bold transition-all flex items-center justify-center space-x-2 cursor-pointer"
                     >
-                        <LogOut className="w-4 h-4" />
+                        <LogOut className="w-4 h-4 text-rose-500" />
+                        <span>Keluar dari Admin</span>
                     </button>
                 </div>
-            </header>
+            </aside>
 
-            {/* Navigasi Tab Admin */}
-            <div className="bg-white/90 border-b border-slate-200/80 px-4 sm:px-6 py-2 overflow-x-auto scrollbar-none backdrop-blur-md">
-                <div className="flex space-x-2 min-w-max">
-                    {[
-                        { id: 'overview', label: 'Ringkasan', icon: LayoutDashboard },
-                        { id: 'modules', label: '7 Modul & Topik', icon: Layers },
-                        { id: 'questions', label: 'Bank Soal CMS', icon: HelpCircle },
-                        { id: 'stories', label: 'Buku Cerita Digital', icon: BookOpen },
-                        { id: 'users', label: 'Data Pengguna', icon: Users },
-                        { id: 'badges', label: 'Master Lencana', icon: Award },
-                    ].map(tab => {
-                        const Icon = tab.icon;
-                        const isActive = activeTab === tab.id;
-                        return (
-                            <button
-                                key={tab.id}
-                                onClick={() => handleTabChange(tab.id)}
-                                className={`px-4 py-2 rounded-xl text-xs font-bold transition-all flex items-center space-x-2 cursor-pointer shrink-0 ${
-                                    isActive 
-                                        ? 'bg-indigo-600 text-white shadow-md shadow-indigo-200' 
-                                        : 'text-slate-600 hover:bg-slate-100 hover:text-slate-900'
-                                    }`}
-                            >
-                                <Icon className="w-4 h-4" />
-                                <span>{tab.label}</span>
-                            </button>
-                        );
-                    })}
-                </div>
-            </div>
+            {/* Right Side Content Container */}
+            <div className="flex-1 flex flex-col min-w-0 h-screen overflow-y-auto bg-[#F8FAFC]">
+                {/* Top Bar Header */}
+                <header className="bg-white/95 backdrop-blur-md border-b border-slate-200/80 px-4 sm:px-6 py-3.5 flex items-center justify-between sticky top-0 z-30 shadow-2xs shrink-0">
+                    <div className="flex items-center space-x-3 min-w-0">
+                        {/* Hamburger Button on Mobile */}
+                        <button
+                            type="button"
+                            onClick={() => { sound.playPop(); setIsSidebarOpen(true); }}
+                            className="lg:hidden p-2 rounded-xl text-slate-600 hover:bg-slate-100 border border-slate-200/80 cursor-pointer shadow-2xs shrink-0"
+                            title="Buka Menu Admin"
+                        >
+                            <Menu className="w-5 h-5" />
+                        </button>
 
-            {/* Isi Tab Admin */}
-            <main className="flex-1 p-4 sm:p-6 max-w-7xl mx-auto w-full">
-                {/* TAB 1: OVERVIEW */}
-                {activeTab === 'overview' && (
+                        <div className="min-w-0">
+                            <h2 className="text-base sm:text-lg font-black font-heading text-[#2E2A4A] tracking-tight truncate">
+                                {[
+                                    { id: 'overview', label: 'Ringkasan Statistik' },
+                                    { id: 'modules', label: '7 Modul & Topik Pembelajaran' },
+                                    { id: 'questions', label: 'Bank Soal CMS' },
+                                    { id: 'stories', label: 'Buku Cerita Digital' },
+                                    { id: 'users', label: 'Data Pengguna & Profil Anak' },
+                                    { id: 'badges', label: 'Master Lencana & Reward' },
+                                ].find(n => n.id === activeTab)?.label || 'Panel Admin'}
+                            </h2>
+                            <p className="text-[11px] text-slate-400 font-medium hidden sm:block truncate">
+                                BelajarCeria CMS • Manajemen Pembelajaran Terpadu
+                            </p>
+                        </div>
+                    </div>
+
+                    <div className="flex items-center space-x-2 shrink-0">
+                        <Link
+                            to="/belajarceria"
+                            onClick={() => sound.playPop()}
+                            className="px-3.5 py-2 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-bold transition-colors hidden sm:flex items-center space-x-1.5 border border-indigo-100 shadow-2xs"
+                        >
+                            <Sparkles className="w-3.5 h-3.5 text-indigo-600" />
+                            <span>Area Bermain</span>
+                        </Link>
+
+                        <button
+                            onClick={() => { sound.playPop(); setIsLogoutOpen(true); }}
+                            className="p-2 rounded-xl text-slate-400 hover:text-rose-600 hover:bg-rose-50 transition-colors cursor-pointer"
+                            title="Logout Admin"
+                        >
+                            <LogOut className="w-4 h-4" />
+                        </button>
+                    </div>
+                </header>
+
+                {/* Main Tab Content */}
+                <main className="flex-1 p-3 sm:p-6 lg:p-8 max-w-7xl mx-auto w-full min-w-0">
+                    {/* TAB 1: OVERVIEW */}
+                    {activeTab === 'overview' && (
                     <div className="space-y-6">
                         {isLoading && !summary ? (
                             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 animate-pulse">
@@ -1664,8 +1763,8 @@ export default function AdminDashboardPage() {
                 {activeTab === 'users' && (
                     <div className="space-y-6">
                         <h2 className="text-xl font-bold font-heading text-[#2E2A4A]">Akun Pengguna</h2>
-                        <div className="bg-white border border-slate-200/80 rounded-3xl overflow-hidden shadow-xs">
-                            <table className="w-full text-left text-xs">
+                        <div className="bg-white border border-slate-200/80 rounded-3xl overflow-x-auto shadow-xs">
+                            <table className="w-full text-left text-xs min-w-[580px]">
                                 <thead className="bg-slate-50 text-slate-500 uppercase font-bold border-b border-slate-200">
                                     <tr>
                                         <th className="p-4">Nama</th>
@@ -1756,6 +1855,7 @@ export default function AdminDashboardPage() {
                     </div>
                 )}
             </main>
+            </div>
 
             {/* MODAL KONFIRMASI LOGOUT */}
             <ConfirmationModal

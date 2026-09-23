@@ -58,6 +58,25 @@ export default function ParentRegisterPage() {
                 <div className="flex flex-col justify-center px-4 sm:px-8 lg:px-12 py-6 sm:py-8">
                     {/* Header */}
                     <div className="mb-5 sm:mb-6 text-left">
+                        <Link 
+                            to="/belajarceria" 
+                            onClick={() => sound.playPop()}
+                            className="inline-flex items-center gap-2.5 mb-4 group"
+                        >
+                            <img 
+                                src="/belajarceria.png" 
+                                alt="Logo BelajarCeria" 
+                                className="w-12 h-12 object-contain rounded-2xl shadow-md shadow-amber-200/80 bg-white p-1 group-hover:scale-105 transition-transform" 
+                            />
+                            <div>
+                                <span className="text-lg font-black font-heading tracking-tight bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
+                                    BelajarCeria
+                                </span>
+                                <span className="block text-[10px] font-bold text-amber-600 uppercase tracking-widest -mt-0.5">
+                                    Pendaftaran Akun
+                                </span>
+                            </div>
+                        </Link>
                         <h1 className="text-3xl sm:text-4xl font-extrabold text-[#2E2A4A] tracking-tight font-heading flex items-center gap-2">
                             Create account <span className="inline-block animate-bounce-short">✨</span>
                         </h1>
