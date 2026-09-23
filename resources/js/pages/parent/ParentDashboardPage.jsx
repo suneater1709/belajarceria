@@ -177,9 +177,14 @@ export default function ParentDashboardPage() {
                         <Link 
                             to="/belajarceria" 
                             onClick={() => sound.playPop()}
-                            className="w-10 h-10 rounded-2xl bg-amber-500 text-white flex items-center justify-center font-bold text-lg shadow-sm"
+                            className="w-10 h-10 rounded-2xl bg-amber-50 border border-amber-200/80 flex items-center justify-center shadow-sm overflow-hidden p-0.5 hover:scale-105 transition-transform"
+                            title="Ke Area Bermain Anak"
                         >
-                            🦉
+                            <img 
+                                src="/belajarceria.png" 
+                                alt="Logo BelajarCeria" 
+                                className="w-full h-full object-contain" 
+                            />
                         </Link>
                         <div>
                             <h1 className="text-lg font-black font-heading leading-tight">Dashboard Orang Tua</h1>

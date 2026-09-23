@@ -33,9 +33,11 @@ export default function Navbar() {
                         onClick={() => sound.playPop()}
                         className="flex items-center space-x-2.5 group"
                     >
-                        <div className="w-10 h-10 rounded-2xl bg-gradient-to-tr from-amber-400 to-orange-400 flex items-center justify-center text-xl shadow-md shadow-orange-200 group-hover:scale-105 transition-transform">
-                            🦉
-                        </div>
+                        <img 
+                            src="/belajarceria.png" 
+                            alt="Logo BelajarCeria" 
+                            className="w-10 h-10 object-contain rounded-2xl shadow-md shadow-orange-200 group-hover:scale-105 transition-transform" 
+                        />
                         <div>
                             <span className="text-xl font-black font-heading tracking-tight bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-500 bg-clip-text text-transparent">
                                 BelajarCeria

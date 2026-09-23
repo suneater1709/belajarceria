@@ -46,9 +46,16 @@ export default function AdminLoginPage() {
                 <div className="flex flex-col justify-center px-4 sm:px-8 lg:px-12 py-6 sm:py-8 text-slate-800">
                     {/* Header */}
                     <div className="mb-6 sm:mb-8 text-left">
-                        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200/80 text-indigo-700 text-xs font-bold mb-3 shadow-xs">
-                            <ShieldCheck className="w-3.5 h-3.5 text-indigo-600" />
-                            <span>Authorized Personnel Only</span>
+                        <div className="flex items-center gap-3 mb-4">
+                            <img 
+                                src="/belajarceria.png" 
+                                alt="Logo BelajarCeria" 
+                                className="w-12 h-12 object-contain rounded-2xl shadow-md shadow-indigo-100 bg-white p-1" 
+                            />
+                            <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-indigo-50 border border-indigo-200/80 text-indigo-700 text-xs font-bold shadow-xs">
+                                <ShieldCheck className="w-3.5 h-3.5 text-indigo-600" />
+                                <span>Authorized Personnel Only</span>
+                            </div>
                         </div>
                         <h1 className="text-3xl sm:text-4xl font-black text-[#2E2A4A] tracking-tight font-heading flex items-center gap-2">
                             Selamat Datang <span className="inline-block animate-bounce-short">👋</span>
@@ -154,9 +161,11 @@ export default function AdminLoginPage() {
                 {/* Right Side: Hero Illustration Card (Light & Soft) */}
                 <div className="hidden md:block relative w-full h-full min-h-[480px] lg:min-h-[560px] rounded-[24px] sm:rounded-[32px] overflow-hidden shadow-inner bg-gradient-to-br from-indigo-50 via-purple-50 to-amber-50 border border-slate-200/60 p-8 flex flex-col justify-between">
                     <div className="space-y-3">
-                        <div className="w-12 h-12 rounded-2xl bg-white shadow-md shadow-indigo-100 flex items-center justify-center text-2xl">
-                            🦉
-                        </div>
+                        <img 
+                            src="/belajarceria.png" 
+                            alt="Logo BelajarCeria" 
+                            className="w-14 h-14 object-contain rounded-2xl bg-white shadow-md shadow-indigo-100 p-1.5" 
+                        />
                         <h2 className="text-2xl font-black text-[#2E2A4A] font-heading">
                             Pusat Kontrol Pembelajaran Digital Anak
                         </h2>
