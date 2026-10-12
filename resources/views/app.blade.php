@@ -6,9 +6,9 @@
     <title>BelajarCeria — Belajar Interaktif untuk Anak</title>
     <meta name="description" content="Platform web belajar interaktif ceria dan menyenangkan untuk anak usia 4–8 tahun dengan petualangan 7 modul pembelajaran, efek suara, dan reward seru!">
     
-    <link rel="icon" type="image/png" href="/belajarceria.png">
-    <link rel="shortcut icon" href="/belajarceria.png">
-    <link rel="apple-touch-icon" href="/belajarceria.png">
+    <link rel="icon" type="image/png" href="{{ asset('belajarceria.png') }}?v=2">
+    <link rel="shortcut icon" href="{{ asset('belajarceria.png') }}?v=2">
+    <link rel="apple-touch-icon" href="{{ asset('belajarceria.png') }}?v=2">
     
     <!-- Google Fonts: Fredoka & Nunito untuk tipografi ramah anak -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
