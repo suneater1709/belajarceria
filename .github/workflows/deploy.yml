@@ -25,14 +25,6 @@ jobs:
       - name: 🔨 Build Vite assets
         run: npm run build
 
-      - name: 🐘 Setup PHP
-        uses: shivammathur/setup-php@v2
-        with:
-          php-version: '8.3'
-
-      - name: 📦 Install Composer dependencies
-        run: composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction
-
       - name: 📂 Deploy Backend to cPanel (/belajarceria)
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -46,6 +38,7 @@ jobs:
             **/.github*
             **/.github*/**
             **/node_modules/**
+            **/vendor/**
             .env*
             storage/logs/*
             tests/**
