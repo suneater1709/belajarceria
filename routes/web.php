@@ -6,6 +6,10 @@ use Illuminate\Support\Facades\Route;
 // Route untuk menjalankan seeder bank soal langsung lewat browser di server (cPanel)
 Route::get('/seed-bank-soal-ceria', function () {
     try {
+        if (!class_exists(\Database\Seeders\PdfBankSoalSeeder::class)) {
+            require_once database_path('seeders/PdfBankSoalSeeder.php');
+        }
+
         Artisan::call('db:seed', [
             '--class' => 'Database\\Seeders\\PdfBankSoalSeeder',
             '--force' => true,

@@ -586,6 +586,9 @@ class DatabaseSeeder extends Seeder
         ]);
 
         // 6. Bank Soal Lengkap dari Dokumen PDF (36 Topik & 360 Soal)
+        if (!class_exists(PdfBankSoalSeeder::class)) {
+            require_once database_path('seeders/PdfBankSoalSeeder.php');
+        }
         $this->call(PdfBankSoalSeeder::class);
     }
 }
