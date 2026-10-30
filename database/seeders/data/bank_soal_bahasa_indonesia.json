@@ -1,0 +1,540 @@
+{
+  "module_code": "bahasa-indonesia",
+  "levels": [
+    {
+      "level": 1,
+      "topic_name": "Huruf dan Suku Kata",
+      "description": "Pengenalan huruf vokal, konsonan, dan penggabungan suku kata.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "Huruf pertama dari kata \"BOLA\" adalah ...",
+          "options": [
+            { "text": "O", "is_correct": false },
+            { "text": "B", "is_correct": true },
+            { "text": "L", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf terakhir dari kata \"KUCING\" adalah ...",
+          "options": [
+            { "text": "N", "is_correct": false },
+            { "text": "I", "is_correct": false },
+            { "text": "G", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Kata \"ma-ta\" terdiri dari berapa suku kata?",
+          "options": [
+            { "text": "2", "is_correct": true },
+            { "text": "3", "is_correct": false },
+            { "text": "1", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Suku kata \"bu\" + \"ku\" jika digabung menjadi ...",
+          "options": [
+            { "text": "kubu", "is_correct": false },
+            { "text": "buku", "is_correct": true },
+            { "text": "ubku", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Manakah yang termasuk huruf vokal?",
+          "options": [
+            { "text": "K", "is_correct": false },
+            { "text": "M", "is_correct": false },
+            { "text": "A", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Kata \"ayam\" memiliki berapa huruf?",
+          "options": [
+            { "text": "4", "is_correct": true },
+            { "text": "3", "is_correct": false },
+            { "text": "5", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf acak \"P-A-I-S\" jika disusun menjadi ...",
+          "options": [
+            { "text": "pisa", "is_correct": false },
+            { "text": "sapi", "is_correct": true },
+            { "text": "apis", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Suku kata awal dari \"me-ja\" adalah ...",
+          "options": [
+            { "text": "ja", "is_correct": false },
+            { "text": "mej", "is_correct": false },
+            { "text": "me", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Kata yang diawali huruf \"S\" adalah ...",
+          "options": [
+            { "text": "sapi", "is_correct": true },
+            { "text": "kuda", "is_correct": false },
+            { "text": "bebek", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kata yang diakhiri huruf \"A\" adalah ...",
+          "options": [
+            { "text": "buku", "is_correct": false },
+            { "text": "bola", "is_correct": true },
+            { "text": "kursi", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "topic_name": "Mengenal Nama Benda",
+      "description": "Mengenal nama-nama benda, hewan, buah, dan lingkungan sekitar.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "Hewan yang bisa terbang adalah ...",
+          "options": [
+            { "text": "ikan", "is_correct": false },
+            { "text": "sapi", "is_correct": false },
+            { "text": "burung", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Buah berwarna kuning dan berbentuk panjang adalah ...",
+          "options": [
+            { "text": "pisang", "is_correct": true },
+            { "text": "apel", "is_correct": false },
+            { "text": "jeruk", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Alat untuk menulis adalah ...",
+          "options": [
+            { "text": "sendok", "is_correct": false },
+            { "text": "pensil", "is_correct": true },
+            { "text": "sapu", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kendaraan yang berjalan di atas air adalah ...",
+          "options": [
+            { "text": "sepeda", "is_correct": false },
+            { "text": "motor", "is_correct": false },
+            { "text": "perahu", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Aku makan nasi dengan ...",
+          "options": [
+            { "text": "sendok", "is_correct": true },
+            { "text": "pensil", "is_correct": false },
+            { "text": "sisir", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Benda yang bersinar terang di siang hari adalah ...",
+          "options": [
+            { "text": "bulan", "is_correct": false },
+            { "text": "matahari", "is_correct": true },
+            { "text": "bintang", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Hewan yang menggonggong adalah ...",
+          "options": [
+            { "text": "kucing", "is_correct": false },
+            { "text": "ayam", "is_correct": false },
+            { "text": "anjing", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Bagian tubuh yang dipakai untuk melihat adalah ...",
+          "options": [
+            { "text": "mata", "is_correct": true },
+            { "text": "telinga", "is_correct": false },
+            { "text": "hidung", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ibu memasak di ...",
+          "options": [
+            { "text": "kamar mandi", "is_correct": false },
+            { "text": "dapur", "is_correct": true },
+            { "text": "garasi", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Daun yang segar berwarna ...",
+          "options": [
+            { "text": "merah", "is_correct": false },
+            { "text": "ungu", "is_correct": false },
+            { "text": "hijau", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "topic_name": "Lawan Kata dan Persamaan Kata",
+      "description": "Memahami konsep sinonim (persamaan) dan antonim (lawan kata) sederhana.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Lawan kata \"besar\" adalah ...",
+          "options": [
+            { "text": "kecil", "is_correct": true },
+            { "text": "tinggi", "is_correct": false },
+            { "text": "panjang", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Lawan kata \"panas\" adalah ...",
+          "options": [
+            { "text": "basah", "is_correct": false },
+            { "text": "dingin", "is_correct": true },
+            { "text": "manis", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Lawan kata \"siang\" adalah ...",
+          "options": [
+            { "text": "pagi", "is_correct": false },
+            { "text": "sore", "is_correct": false },
+            { "text": "malam", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Lawan kata \"rajin\" adalah ...",
+          "options": [
+            { "text": "malas", "is_correct": true },
+            { "text": "pintar", "is_correct": false },
+            { "text": "baik", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Lawan kata \"naik\" adalah ...",
+          "options": [
+            { "text": "lari", "is_correct": false },
+            { "text": "turun", "is_correct": true },
+            { "text": "lompat", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Persamaan kata \"cantik\" adalah ...",
+          "options": [
+            { "text": "jelek", "is_correct": false },
+            { "text": "kotor", "is_correct": false },
+            { "text": "indah", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Persamaan kata \"pintar\" adalah ...",
+          "options": [
+            { "text": "pandai", "is_correct": true },
+            { "text": "bodoh", "is_correct": false },
+            { "text": "malas", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Persamaan kata \"senang\" adalah ...",
+          "options": [
+            { "text": "sedih", "is_correct": false },
+            { "text": "gembira", "is_correct": true },
+            { "text": "marah", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Lawan kata \"dekat\" adalah ...",
+          "options": [
+            { "text": "sempit", "is_correct": false },
+            { "text": "tipis", "is_correct": false },
+            { "text": "jauh", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Persamaan kata \"cepat\" adalah ...",
+          "options": [
+            { "text": "lekas", "is_correct": true },
+            { "text": "lambat", "is_correct": false },
+            { "text": "pelan", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "topic_name": "Kalimat dan Tanda Baca",
+      "description": "Penggunaan huruf kapital, tanda baca titik, tanya, dan seru pada kalimat sederhana.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Kalimat yang penulisannya BENAR adalah ...",
+          "options": [
+            { "text": "budi bermain bola di lapangan.", "is_correct": false },
+            { "text": "Budi bermain bola di lapangan.", "is_correct": true },
+            { "text": "Budi Bermain bola di lapangan", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Tanda baca di akhir kalimat tanya adalah ...",
+          "options": [
+            { "text": ".", "is_correct": false },
+            { "text": "!", "is_correct": false },
+            { "text": "?", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Tanda baca di akhir kalimat seru \"Wah, indah sekali\" adalah ...",
+          "options": [
+            { "text": "!", "is_correct": true },
+            { "text": ".", "is_correct": false },
+            { "text": ",", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kata yang harus diawali huruf kapital adalah ...",
+          "options": [
+            { "text": "kursi", "is_correct": false },
+            { "text": "Jakarta", "is_correct": true },
+            { "text": "pensil", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Susunan kata yang benar adalah ...",
+          "options": [
+            { "text": "Koran ayah membaca.", "is_correct": false },
+            { "text": "Membaca koran ayah.", "is_correct": false },
+            { "text": "Ayah membaca koran.", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Adik ... susu setiap pagi.",
+          "options": [
+            { "text": "minum", "is_correct": true },
+            { "text": "makan", "is_correct": false },
+            { "text": "tidur", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Manakah yang merupakan kalimat tanya?",
+          "options": [
+            { "text": "Aku suka es krim.", "is_correct": false },
+            { "text": "Di mana rumahmu?", "is_correct": true },
+            { "text": "Tolong bantu aku!", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Burung terbang tinggi di ...",
+          "options": [
+            { "text": "lantai", "is_correct": false },
+            { "text": "lemari", "is_correct": false },
+            { "text": "langit", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Apel, jeruk, dan pisang adalah nama ...",
+          "options": [
+            { "text": "buah", "is_correct": true },
+            { "text": "hewan", "is_correct": false },
+            { "text": "baju", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Hari setelah hari Senin adalah ...",
+          "options": [
+            { "text": "Rabu", "is_correct": false },
+            { "text": "Selasa", "is_correct": true },
+            { "text": "Minggu", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "topic_name": "Kata Kerja, Kata Sifat, dan Imbuhan",
+      "description": "Pengenalan jenis kata kerja, kata sifat, kata benda, kata ulang, dan imbuhan dasar.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "Kata ulang dari \"buku\" adalah ...",
+          "options": [
+            { "text": "bukubuku", "is_correct": false },
+            { "text": "buku buku", "is_correct": false },
+            { "text": "buku-buku", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Manakah yang termasuk kata kerja?",
+          "options": [
+            { "text": "berlari", "is_correct": true },
+            { "text": "merah", "is_correct": false },
+            { "text": "besar", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Manakah yang termasuk kata sifat?",
+          "options": [
+            { "text": "menulis", "is_correct": false },
+            { "text": "tinggi", "is_correct": true },
+            { "text": "membaca", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kata dasar dari \"menulis\" adalah ...",
+          "options": [
+            { "text": "ulis", "is_correct": false },
+            { "text": "menul", "is_correct": false },
+            { "text": "tulis", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Kata \"main\" jika diberi imbuhan ber- menjadi ...",
+          "options": [
+            { "text": "bermain", "is_correct": true },
+            { "text": "memain", "is_correct": false },
+            { "text": "bemain", "is_correct": false }
+          ]
+        },
+        {
+          "question": "\"Anak-anak\" artinya ...",
+          "options": [
+            { "text": "satu anak", "is_correct": false },
+            { "text": "banyak anak", "is_correct": true },
+            { "text": "tidak ada anak", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ibu ... lantai dengan sapu.",
+          "options": [
+            { "text": "menyapi", "is_correct": false },
+            { "text": "menyapa", "is_correct": false },
+            { "text": "menyapu", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Manakah yang termasuk kata benda?",
+          "options": [
+            { "text": "meja", "is_correct": true },
+            { "text": "berlari", "is_correct": false },
+            { "text": "senang", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kata ulang yang benar penulisannya adalah ...",
+          "options": [
+            { "text": "jalan jalan", "is_correct": false },
+            { "text": "jalan-jalan", "is_correct": true },
+            { "text": "jalanjalan", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kata \"ambil\" jika diberi imbuhan me- menjadi ...",
+          "options": [
+            { "text": "memambil", "is_correct": false },
+            { "text": "menambil", "is_correct": false },
+            { "text": "mengambil", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "topic_name": "Membaca dan Memahami Cerita",
+      "description": "Latihan literasi membaca cerita pendek dan menjawab pertanyaan isi cerita.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "[Bacaan: Rani punya seekor kucing bernama Mimi. Mimi berbulu putih dan suka minum susu. Setiap sore, Rani dan Mimi bermain di taman.] Siapa nama kucing Rani?",
+          "options": [
+            { "text": "Mimi", "is_correct": true },
+            { "text": "Momo", "is_correct": false },
+            { "text": "Meli", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Apa warna bulu Mimi?",
+          "options": [
+            { "text": "hitam", "is_correct": false },
+            { "text": "putih", "is_correct": true },
+            { "text": "belang", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Mimi suka minum ...",
+          "options": [
+            { "text": "jus", "is_correct": false },
+            { "text": "teh", "is_correct": false },
+            { "text": "susu", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Kapan Rani bermain dengan Mimi?",
+          "options": [
+            { "text": "sore", "is_correct": true },
+            { "text": "pagi", "is_correct": false },
+            { "text": "malam", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Di mana Rani dan Mimi bermain?",
+          "options": [
+            { "text": "sekolah", "is_correct": false },
+            { "text": "taman", "is_correct": true },
+            { "text": "pasar", "is_correct": false }
+          ]
+        },
+        {
+          "question": "[Bacaan: Pak Tani bangun pagi-pagi. Ia pergi ke sawah membawa cangkul. Pak Tani menanam padi agar kelak menjadi nasi.] Kapan Pak Tani bangun?",
+          "options": [
+            { "text": "siang hari", "is_correct": false },
+            { "text": "tengah malam", "is_correct": false },
+            { "text": "pagi-pagi", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Pak Tani pergi ke ...",
+          "options": [
+            { "text": "sawah", "is_correct": true },
+            { "text": "pasar", "is_correct": false },
+            { "text": "sekolah", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Alat yang dibawa Pak Tani adalah ...",
+          "options": [
+            { "text": "pensil", "is_correct": false },
+            { "text": "cangkul", "is_correct": true },
+            { "text": "payung", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Pak Tani menanam ...",
+          "options": [
+            { "text": "jagung", "is_correct": false },
+            { "text": "pisang", "is_correct": false },
+            { "text": "padi", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Judul yang cocok untuk bacaan kedua adalah ...",
+          "options": [
+            { "text": "Pak Tani Rajin", "is_correct": true },
+            { "text": "Kucing Mimi", "is_correct": false },
+            { "text": "Pergi ke Pasar", "is_correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

@@ -1,0 +1,540 @@
+{
+  "module_code": "bahasa-arab",
+  "levels": [
+    {
+      "level": 1,
+      "topic_name": "Huruf Hijaiyah: Alif sampai Jim",
+      "description": "Pengenalan huruf hijaiyah dasar dari Alif hingga Jim.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "Huruf apakah ini: [ ا ]?",
+          "options": [
+            { "text": "Alif", "is_correct": true },
+            { "text": "Baa", "is_correct": false },
+            { "text": "Taa", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ب ]?",
+          "options": [
+            { "text": "Taa", "is_correct": false },
+            { "text": "Baa", "is_correct": true },
+            { "text": "Tsaa", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ت ]?",
+          "options": [
+            { "text": "Baa", "is_correct": false },
+            { "text": "Tsaa", "is_correct": false },
+            { "text": "Taa", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ث ]?",
+          "options": [
+            { "text": "Tsaa", "is_correct": true },
+            { "text": "Taa", "is_correct": false },
+            { "text": "Jim", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ج ]?",
+          "options": [
+            { "text": "Alif", "is_correct": false },
+            { "text": "Jim", "is_correct": true },
+            { "text": "Baa", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf hijaiyah yang PERTAMA adalah ...",
+          "options": [
+            { "text": "Baa", "is_correct": false },
+            { "text": "Jim", "is_correct": false },
+            { "text": "Alif", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf yang punya SATU titik di bawah adalah ...",
+          "options": [
+            { "text": "ب", "is_correct": true },
+            { "text": "ت", "is_correct": false },
+            { "text": "ث", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf yang punya TIGA titik di atas adalah ...",
+          "options": [
+            { "text": "ت", "is_correct": false },
+            { "text": "ث", "is_correct": true },
+            { "text": "ب", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf yang punya DUA titik di atas adalah ...",
+          "options": [
+            { "text": "ب", "is_correct": false },
+            { "text": "ج", "is_correct": false },
+            { "text": "ت", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Urutan yang benar adalah ...",
+          "options": [
+            { "text": "Alif, Baa, Taa, Tsaa, Jim", "is_correct": true },
+            { "text": "Alif, Taa, Baa, Tsaa, Jim", "is_correct": false },
+            { "text": "Baa, Alif, Taa, Jim, Tsaa", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "topic_name": "Huruf Hijaiyah: Ha sampai Zai",
+      "description": "Pengenalan huruf hijaiyah Ha, Kho, Dal, Dzal, Ro, dan Zai.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "Huruf apakah ini: [ ح ]?",
+          "options": [
+            { "text": "Kho", "is_correct": false },
+            { "text": "Ha", "is_correct": true },
+            { "text": "Jim", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ خ ]?",
+          "options": [
+            { "text": "Ha", "is_correct": false },
+            { "text": "Dal", "is_correct": false },
+            { "text": "Kho", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ د ]?",
+          "options": [
+            { "text": "Dal", "is_correct": true },
+            { "text": "Dzal", "is_correct": false },
+            { "text": "Ro", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ذ ]?",
+          "options": [
+            { "text": "Dal", "is_correct": false },
+            { "text": "Dzal", "is_correct": true },
+            { "text": "Zai", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ر ]?",
+          "options": [
+            { "text": "Zai", "is_correct": false },
+            { "text": "Dal", "is_correct": false },
+            { "text": "Ro", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ز ]?",
+          "options": [
+            { "text": "Zai", "is_correct": true },
+            { "text": "Ro", "is_correct": false },
+            { "text": "Dzal", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf yang mirip Dal tetapi punya satu titik di atas adalah ...",
+          "options": [
+            { "text": "د", "is_correct": false },
+            { "text": "ذ", "is_correct": true },
+            { "text": "ر", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Manakah huruf Kho?",
+          "options": [
+            { "text": "ح", "is_correct": false },
+            { "text": "ج", "is_correct": false },
+            { "text": "خ", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Manakah huruf Ro?",
+          "options": [
+            { "text": "ر", "is_correct": true },
+            { "text": "ز", "is_correct": false },
+            { "text": "د", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf setelah Jim (ج) adalah ...",
+          "options": [
+            { "text": "Kho", "is_correct": false },
+            { "text": "Ha", "is_correct": true },
+            { "text": "Dal", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "topic_name": "Huruf Hijaiyah: Sin sampai Ghain",
+      "description": "Pengenalan huruf Sin, Syin, Shod, Dhod, Tho, Zho, 'Ain, dan Ghain.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Huruf apakah ini: [ س ]?",
+          "options": [
+            { "text": "Syin", "is_correct": false },
+            { "text": "Shod", "is_correct": false },
+            { "text": "Sin", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ش ]?",
+          "options": [
+            { "text": "Syin", "is_correct": true },
+            { "text": "Sin", "is_correct": false },
+            { "text": "Shod", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ص ]?",
+          "options": [
+            { "text": "Dhod", "is_correct": false },
+            { "text": "Shod", "is_correct": true },
+            { "text": "Sin", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ض ]?",
+          "options": [
+            { "text": "Shod", "is_correct": false },
+            { "text": "Tho", "is_correct": false },
+            { "text": "Dhod", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ط ]?",
+          "options": [
+            { "text": "Tho", "is_correct": true },
+            { "text": "Zho", "is_correct": false },
+            { "text": "Shod", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ظ ]?",
+          "options": [
+            { "text": "Tho", "is_correct": false },
+            { "text": "Zho", "is_correct": true },
+            { "text": "Dhod", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ع ]?",
+          "options": [
+            { "text": "Ghain", "is_correct": false },
+            { "text": "Fa", "is_correct": false },
+            { "text": "'Ain", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ غ ]?",
+          "options": [
+            { "text": "Ghain", "is_correct": true },
+            { "text": "'Ain", "is_correct": false },
+            { "text": "Qaf", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf yang punya TIGA titik di atas adalah ...",
+          "options": [
+            { "text": "س", "is_correct": false },
+            { "text": "ش", "is_correct": true },
+            { "text": "ص", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf yang mirip ع tetapi ada satu titik di atas adalah ...",
+          "options": [
+            { "text": "ف", "is_correct": false },
+            { "text": "ق", "is_correct": false },
+            { "text": "غ", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "topic_name": "Huruf Hijaiyah: Fa sampai Ya",
+      "description": "Pengenalan huruf Fa, Qaf, Kaf, Lam, Mim, Nun, Ha, Wau, dan Ya.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Huruf apakah ini: [ ف ]?",
+          "options": [
+            { "text": "Fa", "is_correct": true },
+            { "text": "Qaf", "is_correct": false },
+            { "text": "Kaf", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ق ]?",
+          "options": [
+            { "text": "Fa", "is_correct": false },
+            { "text": "Qaf", "is_correct": true },
+            { "text": "Kaf", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ك ]?",
+          "options": [
+            { "text": "Lam", "is_correct": false },
+            { "text": "Qaf", "is_correct": false },
+            { "text": "Kaf", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ل ]?",
+          "options": [
+            { "text": "Lam", "is_correct": true },
+            { "text": "Mim", "is_correct": false },
+            { "text": "Nun", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ م ]?",
+          "options": [
+            { "text": "Nun", "is_correct": false },
+            { "text": "Mim", "is_correct": true },
+            { "text": "Lam", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ن ]?",
+          "options": [
+            { "text": "Mim", "is_correct": false },
+            { "text": "Ya", "is_correct": false },
+            { "text": "Nun", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf [ ه ] dibaca ...",
+          "options": [
+            { "text": "Ha", "is_correct": true },
+            { "text": "Wau", "is_correct": false },
+            { "text": "Ya", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ و ]?",
+          "options": [
+            { "text": "Nun", "is_correct": false },
+            { "text": "Wau", "is_correct": true },
+            { "text": "Mim", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf apakah ini: [ ي ]?",
+          "options": [
+            { "text": "Nun", "is_correct": false },
+            { "text": "Taa", "is_correct": false },
+            { "text": "Ya", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Huruf hijaiyah yang TERAKHIR adalah ...",
+          "options": [
+            { "text": "Ya", "is_correct": true },
+            { "text": "Wau", "is_correct": false },
+            { "text": "Nun", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "topic_name": "Harakat: Fathah, Kasrah, Dhammah",
+      "description": "Pengenalan tanda baca dasar harakat fathah, kasrah, dan dhammah.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "Cara membaca [ بَ ] adalah ...",
+          "options": [
+            { "text": "Bi", "is_correct": false },
+            { "text": "Ba", "is_correct": true },
+            { "text": "Bu", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Cara membaca [ بِ ] adalah ...",
+          "options": [
+            { "text": "Ba", "is_correct": false },
+            { "text": "Bu", "is_correct": false },
+            { "text": "Bi", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Cara membaca [ بُ ] adalah ...",
+          "options": [
+            { "text": "Bu", "is_correct": true },
+            { "text": "Bi", "is_correct": false },
+            { "text": "Ba", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Cara membaca [ تَ ] adalah ...",
+          "options": [
+            { "text": "Ti", "is_correct": false },
+            { "text": "Ta", "is_correct": true },
+            { "text": "Tu", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Cara membaca [ ثِ ] adalah ...",
+          "options": [
+            { "text": "Tsa", "is_correct": false },
+            { "text": "Tsu", "is_correct": false },
+            { "text": "Tsi", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Cara membaca [ جُ ] adalah ...",
+          "options": [
+            { "text": "Ju", "is_correct": true },
+            { "text": "Ja", "is_correct": false },
+            { "text": "Ji", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Tanda [ ـَ ] di atas huruf disebut ...",
+          "options": [
+            { "text": "Kasrah", "is_correct": false },
+            { "text": "Fathah", "is_correct": true },
+            { "text": "Dhammah", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Tanda [ ـِ ] di bawah huruf disebut ...",
+          "options": [
+            { "text": "Fathah", "is_correct": false },
+            { "text": "Dhammah", "is_correct": false },
+            { "text": "Kasrah", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Tanda [ ـُ ] di atas huruf disebut ...",
+          "options": [
+            { "text": "Dhammah", "is_correct": true },
+            { "text": "Fathah", "is_correct": false },
+            { "text": "Kasrah", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Manakah yang dibaca \"Ki\" ?",
+          "options": [
+            { "text": "كَ", "is_correct": false },
+            { "text": "كِ", "is_correct": true },
+            { "text": "كُ", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "topic_name": "Kata Arab Pertamaku",
+      "description": "Pengenalan mufrodat / kosakata bahasa Arab sehari-hari.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "[ كِتَاب ] artinya ...",
+          "options": [
+            { "text": "Pensil", "is_correct": false },
+            { "text": "Meja", "is_correct": false },
+            { "text": "Buku", "is_correct": true }
+          ]
+        },
+        {
+          "question": "[ بَيْت ] artinya ...",
+          "options": [
+            { "text": "Rumah", "is_correct": true },
+            { "text": "Sekolah", "is_correct": false },
+            { "text": "Pasar", "is_correct": false }
+          ]
+        },
+        {
+          "question": "[ مَاء ] artinya ...",
+          "options": [
+            { "text": "Susu", "is_correct": false },
+            { "text": "Air", "is_correct": true },
+            { "text": "Teh", "is_correct": false }
+          ]
+        },
+        {
+          "question": "[ شَمْس ] artinya ...",
+          "options": [
+            { "text": "Bulan", "is_correct": false },
+            { "text": "Bintang", "is_correct": false },
+            { "text": "Matahari", "is_correct": true }
+          ]
+        },
+        {
+          "question": "[ قَمَر ] artinya ...",
+          "options": [
+            { "text": "Bulan", "is_correct": true },
+            { "text": "Matahari", "is_correct": false },
+            { "text": "Bintang", "is_correct": false }
+          ]
+        },
+        {
+          "question": "[ أُمّ ] artinya ...",
+          "options": [
+            { "text": "Ayah", "is_correct": false },
+            { "text": "Ibu", "is_correct": true },
+            { "text": "Kakak", "is_correct": false }
+          ]
+        },
+        {
+          "question": "[ أَب ] artinya ...",
+          "options": [
+            { "text": "Ibu", "is_correct": false },
+            { "text": "Adik", "is_correct": false },
+            { "text": "Ayah", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Bahasa Arab dari \"Pintu\" adalah ...",
+          "options": [
+            { "text": "بَاب", "is_correct": true },
+            { "text": "كِتَاب", "is_correct": false },
+            { "text": "بَيْت", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Bahasa Arab dari \"Pena\" adalah ...",
+          "options": [
+            { "text": "بَاب", "is_correct": false },
+            { "text": "قَلَم", "is_correct": true },
+            { "text": "مَاء", "is_correct": false }
+          ]
+        },
+        {
+          "question": "[ عَيْن ] artinya ...",
+          "options": [
+            { "text": "Telinga", "is_correct": false },
+            { "text": "Tangan", "is_correct": false },
+            { "text": "Mata", "is_correct": true }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

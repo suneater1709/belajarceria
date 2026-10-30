@@ -1,0 +1,540 @@
+{
+  "module_code": "ipa",
+  "levels": [
+    {
+      "level": 1,
+      "topic_name": "Pola dan Pengelompokan",
+      "description": "Mengenal bentuk visual, klasifikasi objek, dan melanjutkan pola simbol.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "● ■ ● ■ ● ?",
+          "options": [
+            { "text": "■", "is_correct": true },
+            { "text": "●", "is_correct": false },
+            { "text": "▲", "is_correct": false }
+          ]
+        },
+        {
+          "question": "▲ ▲ ★ ▲ ▲ ★ ▲ ▲ ?",
+          "options": [
+            { "text": "▲", "is_correct": false },
+            { "text": "★", "is_correct": true },
+            { "text": "■", "is_correct": false }
+          ]
+        },
+        {
+          "question": "★ ● ★ ● ★ ?",
+          "options": [
+            { "text": "★", "is_correct": false },
+            { "text": "■", "is_correct": false },
+            { "text": "●", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Mana yang BERBEDA? ▲ ▲ ▲ ■ ▲",
+          "options": [
+            { "text": "■", "is_correct": true },
+            { "text": "▲", "is_correct": false },
+            { "text": "★", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Mana yang BUKAN buah?",
+          "options": [
+            { "text": "apel", "is_correct": false },
+            { "text": "kursi", "is_correct": true },
+            { "text": "jeruk", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Mana yang BUKAN hewan?",
+          "options": [
+            { "text": "kuda", "is_correct": false },
+            { "text": "bebek", "is_correct": false },
+            { "text": "meja", "is_correct": true }
+          ]
+        },
+        {
+          "question": "▲ ■ ▲ ■ ▲ ■ ?",
+          "options": [
+            { "text": "▲", "is_correct": true },
+            { "text": "■", "is_correct": false },
+            { "text": "●", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ada berapa ★ ? ★ ● ★ ★ ●",
+          "options": [
+            { "text": "2", "is_correct": false },
+            { "text": "3", "is_correct": true },
+            { "text": "4", "is_correct": false }
+          ]
+        },
+        {
+          "question": "♥ ♥ ★ ♥ ♥ ★ ♥ ♥ ?",
+          "options": [
+            { "text": "♥", "is_correct": false },
+            { "text": "●", "is_correct": false },
+            { "text": "★", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Mana yang paling BANYAK? ● ● ● ■ ■ ▲",
+          "options": [
+            { "text": "●", "is_correct": true },
+            { "text": "■", "is_correct": false },
+            { "text": "▲", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "topic_name": "Pola Bilangan",
+      "description": "Pola deret angka loncat, kelipatan, dan pengurangan teratur.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "2, 4, 6, 8, ?",
+          "options": [
+            { "text": "9", "is_correct": false },
+            { "text": "10", "is_correct": true },
+            { "text": "12", "is_correct": false }
+          ]
+        },
+        {
+          "question": "1, 2, 3, 4, ?",
+          "options": [
+            { "text": "6", "is_correct": false },
+            { "text": "3", "is_correct": false },
+            { "text": "5", "is_correct": true }
+          ]
+        },
+        {
+          "question": "5, 10, 15, ?",
+          "options": [
+            { "text": "20", "is_correct": true },
+            { "text": "25", "is_correct": false },
+            { "text": "18", "is_correct": false }
+          ]
+        },
+        {
+          "question": "10, 8, 6, ?",
+          "options": [
+            { "text": "5", "is_correct": false },
+            { "text": "4", "is_correct": true },
+            { "text": "3", "is_correct": false }
+          ]
+        },
+        {
+          "question": "1, 3, 5, 7, ?",
+          "options": [
+            { "text": "8", "is_correct": false },
+            { "text": "10", "is_correct": false },
+            { "text": "9", "is_correct": true }
+          ]
+        },
+        {
+          "question": "3, 6, 9, ?",
+          "options": [
+            { "text": "12", "is_correct": true },
+            { "text": "11", "is_correct": false },
+            { "text": "10", "is_correct": false }
+          ]
+        },
+        {
+          "question": "1, 1, 2, 2, 3, ?",
+          "options": [
+            { "text": "4", "is_correct": false },
+            { "text": "3", "is_correct": true },
+            { "text": "2", "is_correct": false }
+          ]
+        },
+        {
+          "question": "20, 15, 10, ?",
+          "options": [
+            { "text": "0", "is_correct": false },
+            { "text": "8", "is_correct": false },
+            { "text": "5", "is_correct": true }
+          ]
+        },
+        {
+          "question": "2, 4, 8, ?",
+          "options": [
+            { "text": "16", "is_correct": true },
+            { "text": "12", "is_correct": false },
+            { "text": "10", "is_correct": false }
+          ]
+        },
+        {
+          "question": "100, 90, 80, ?",
+          "options": [
+            { "text": "60", "is_correct": false },
+            { "text": "70", "is_correct": true },
+            { "text": "75", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "topic_name": "Urutan dan Algoritma (Coding Dasar)",
+      "description": "Logika sekuensial, instruksi robot/arah, dan penalaran algoritma dasar.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Urutan yang benar untuk memakai sepatu adalah ...",
+          "options": [
+            { "text": "Pakai sepatu, lalu kaos kaki", "is_correct": false },
+            { "text": "Ikat tali, lalu kaos kaki", "is_correct": false },
+            { "text": "Pakai kaos kaki, lalu sepatu", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Robot: Maju 2 langkah, mundur 1 langkah. Robot berada ... langkah dari titik awal.",
+          "options": [
+            { "text": "1", "is_correct": true },
+            { "text": "2", "is_correct": false },
+            { "text": "3", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Langkah PERTAMA membuat teh adalah ...",
+          "options": [
+            { "text": "Minum teh", "is_correct": false },
+            { "text": "Didihkan air", "is_correct": true },
+            { "text": "Cuci gelas kotor", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ulangi 3 kali: tepuk tangan. Berapa kali kamu bertepuk tangan?",
+          "options": [
+            { "text": "1", "is_correct": false },
+            { "text": "6", "is_correct": false },
+            { "text": "3", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Ulangi 4 kali: lompat 2 kali. Berapa total lompatan?",
+          "options": [
+            { "text": "8", "is_correct": true },
+            { "text": "6", "is_correct": false },
+            { "text": "4", "is_correct": false }
+          ]
+        },
+        {
+          "question": "JIKA hujan MAKA bawa payung. Hari ini hujan. Kamu membawa ...",
+          "options": [
+            { "text": "topi", "is_correct": false },
+            { "text": "payung", "is_correct": true },
+            { "text": "bola", "is_correct": false }
+          ]
+        },
+        {
+          "question": "JIKA lampu merah MAKA berhenti. Sekarang lampu hijau. Kamu ...",
+          "options": [
+            { "text": "berhenti", "is_correct": false },
+            { "text": "mundur", "is_correct": false },
+            { "text": "berjalan", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Urutan: Buka pintu, masuk kamar, ketuk pintu. Bagian yang keliru adalah ...",
+          "options": [
+            { "text": "Ketuk pintu seharusnya di awal", "is_correct": true },
+            { "text": "Masuk kamar seharusnya di awal", "is_correct": false },
+            { "text": "Tidak ada yang keliru", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Perintah robot: ↑ ↑ → → ↓. Robot berakhir di ...",
+          "options": [
+            { "text": "2 ke atas dan 2 ke kanan", "is_correct": false },
+            { "text": "1 ke atas dan 2 ke kanan", "is_correct": true },
+            { "text": "3 ke atas", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Perintah robot: ← ← → ←. Robot berakhir ... dari titik awal.",
+          "options": [
+            { "text": "1 langkah ke kiri", "is_correct": false },
+            { "text": "4 langkah ke kiri", "is_correct": false },
+            { "text": "2 langkah ke kiri", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "topic_name": "Logika dan Teka-teki",
+      "description": "Penalaran silogisme, perbandingan, urutan posisi, dan teka-teki logika.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Ada 2 ayam dan 1 kambing. Berapa jumlah kaki semuanya?",
+          "options": [
+            { "text": "8", "is_correct": true },
+            { "text": "6", "is_correct": false },
+            { "text": "10", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Rina lebih tinggi dari Dina. Dina lebih tinggi dari Sinta. Siapa yang paling pendek?",
+          "options": [
+            { "text": "Rina", "is_correct": false },
+            { "text": "Sinta", "is_correct": true },
+            { "text": "Dina", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ada 3 kotak: merah, biru, hijau. Bola tidak di kotak merah dan tidak di kotak biru. Bola ada di kotak ...",
+          "options": [
+            { "text": "merah", "is_correct": false },
+            { "text": "biru", "is_correct": false },
+            { "text": "hijau", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Aku berada di antara angka 4 dan 6. Aku adalah angka ...",
+          "options": [
+            { "text": "5", "is_correct": true },
+            { "text": "3", "is_correct": false },
+            { "text": "7", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Semua burung punya sayap. Merpati adalah burung. Jadi merpati ...",
+          "options": [
+            { "text": "tidak punya sayap", "is_correct": false },
+            { "text": "punya sayap", "is_correct": true },
+            { "text": "punya empat kaki", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Budi lahir lebih dulu dari Ani. Ani lahir lebih dulu dari Cici. Siapa yang paling tua?",
+          "options": [
+            { "text": "Ani", "is_correct": false },
+            { "text": "Cici", "is_correct": false },
+            { "text": "Budi", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Jika hari ini Rabu, besok hari ...",
+          "options": [
+            { "text": "Kamis", "is_correct": true },
+            { "text": "Selasa", "is_correct": false },
+            { "text": "Jumat", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Mana yang tidak cocok? 2, 4, 6, 7, 8",
+          "options": [
+            { "text": "4", "is_correct": false },
+            { "text": "7", "is_correct": true },
+            { "text": "8", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Aku punya tiga sisi dan tiga sudut. Aku adalah ...",
+          "options": [
+            { "text": "persegi", "is_correct": false },
+            { "text": "lingkaran", "is_correct": false },
+            { "text": "segitiga", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Ali berdiri di depan Beni. Beni berdiri di depan Candra. Siapa yang di tengah?",
+          "options": [
+            { "text": "Beni", "is_correct": true },
+            { "text": "Ali", "is_correct": false },
+            { "text": "Candra", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "topic_name": "Variabel, Kondisi, dan Perulangan",
+      "description": "Konsep variabel, ekspresi percabangan (IF-ELSE), dan perulangan loop.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "x = 3, lalu x = x + 2. Nilai x sekarang adalah ...",
+          "options": [
+            { "text": "3", "is_correct": false },
+            { "text": "5", "is_correct": true },
+            { "text": "2", "is_correct": false }
+          ]
+        },
+        {
+          "question": "a = 5 dan b = 2. Berapa a − b ?",
+          "options": [
+            { "text": "7", "is_correct": false },
+            { "text": "10", "is_correct": false },
+            { "text": "3", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Mulai dari 0. Ulangi 3 kali: tambah 2. Hasilnya ...",
+          "options": [
+            { "text": "6", "is_correct": true },
+            { "text": "5", "is_correct": false },
+            { "text": "3", "is_correct": false }
+          ]
+        },
+        {
+          "question": "JIKA angka > 5 MAKA tulis BESAR, JIKA TIDAK tulis KECIL. Angka 8 menghasilkan ...",
+          "options": [
+            { "text": "KECIL", "is_correct": false },
+            { "text": "BESAR", "is_correct": true },
+            { "text": "8", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Dengan aturan yang sama (angka > 5 → BESAR), angka 3 menghasilkan ...",
+          "options": [
+            { "text": "BESAR", "is_correct": false },
+            { "text": "3", "is_correct": false },
+            { "text": "KECIL", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Urutkan dari kecil ke besar: 7, 2, 9, 4",
+          "options": [
+            { "text": "2, 4, 7, 9", "is_correct": true },
+            { "text": "9, 7, 4, 2", "is_correct": false },
+            { "text": "2, 7, 4, 9", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ulangi 2 kali: [ ● lalu ■ ]. Hasilnya ...",
+          "options": [
+            { "text": "● ● ■ ■", "is_correct": false },
+            { "text": "● ■ ● ■", "is_correct": true },
+            { "text": "■ ● ■ ●", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ulangi 5 kali: cetak \"hore\". Berapa kali kata \"hore\" tercetak?",
+          "options": [
+            { "text": "1", "is_correct": false },
+            { "text": "10", "is_correct": false },
+            { "text": "5", "is_correct": true }
+          ]
+        },
+        {
+          "question": "x = 10, lalu x = x − 4, lalu x = x + 1. Nilai x akhir adalah ...",
+          "options": [
+            { "text": "7", "is_correct": true },
+            { "text": "5", "is_correct": false },
+            { "text": "15", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Mesin angka: masuk 3 → keluar 6; masuk 5 → keluar 10. Masuk 7 → keluar ...",
+          "options": [
+            { "text": "12", "is_correct": false },
+            { "text": "14", "is_correct": true },
+            { "text": "10", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "topic_name": "Tantangan Super Logika",
+      "description": "Tantangan penalaran tingkat lanjut: deret kuadrat, geometri, dan logika kombinatorial.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "1, 4, 9, 16, ?",
+          "options": [
+            { "text": "20", "is_correct": false },
+            { "text": "24", "is_correct": false },
+            { "text": "25", "is_correct": true }
+          ]
+        },
+        {
+          "question": "1, 2, 4, 7, 11, ?",
+          "options": [
+            { "text": "16", "is_correct": true },
+            { "text": "15", "is_correct": false },
+            { "text": "14", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Jika A = 1, B = 2, C = 3, berapa nilai A + B + C ?",
+          "options": [
+            { "text": "5", "is_correct": false },
+            { "text": "6", "is_correct": true },
+            { "text": "7", "is_correct": false }
+          ]
+        },
+        {
+          "question": "4 teman saling bersalaman, masing-masing sekali. Berapa jabat tangan?",
+          "options": [
+            { "text": "4", "is_correct": false },
+            { "text": "8", "is_correct": false },
+            { "text": "6", "is_correct": true }
+          ]
+        },
+        {
+          "question": "merah, biru, biru, merah, biru, biru, merah, ?",
+          "options": [
+            { "text": "biru", "is_correct": true },
+            { "text": "merah", "is_correct": false },
+            { "text": "hijau", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Huruf \"b\" jika dicerminkan kiri-kanan menjadi ...",
+          "options": [
+            { "text": "p", "is_correct": false },
+            { "text": "d", "is_correct": true },
+            { "text": "q", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kubus punya berapa sisi (bidang)?",
+          "options": [
+            { "text": "4", "is_correct": false },
+            { "text": "8", "is_correct": false },
+            { "text": "6", "is_correct": true }
+          ]
+        },
+        {
+          "question": "JIKA lampu A menyala MAKA lampu B padam. Lampu A menyala. Lampu B ...",
+          "options": [
+            { "text": "padam", "is_correct": true },
+            { "text": "menyala", "is_correct": false },
+            { "text": "berkedip", "is_correct": false }
+          ]
+        },
+        {
+          "question": "▲ ■ ● ▲ ■ ● ▲ ?",
+          "options": [
+            { "text": "●", "is_correct": false },
+            { "text": "■", "is_correct": true },
+            { "text": "▲", "is_correct": false }
+          ]
+        },
+        {
+          "question": "2, 3, 5, 8, 13, ?",
+          "options": [
+            { "text": "18", "is_correct": false },
+            { "text": "20", "is_correct": false },
+            { "text": "21", "is_correct": true }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

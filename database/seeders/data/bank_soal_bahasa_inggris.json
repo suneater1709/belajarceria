@@ -1,0 +1,540 @@
+{
+  "module_code": "bahasa-inggris",
+  "levels": [
+    {
+      "level": 1,
+      "topic_name": "Starters: Colours, Numbers & Animals",
+      "description": "Basic English vocabulary for colors, numbers, and animals.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "What colour is a banana?",
+          "options": [
+            { "text": "blue", "is_correct": false },
+            { "text": "red", "is_correct": false },
+            { "text": "yellow", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Which number is \"seven\"?",
+          "options": [
+            { "text": "7", "is_correct": true },
+            { "text": "5", "is_correct": false },
+            { "text": "9", "is_correct": false }
+          ]
+        },
+        {
+          "question": "A dog says ...",
+          "options": [
+            { "text": "meow", "is_correct": false },
+            { "text": "woof", "is_correct": true },
+            { "text": "moo", "is_correct": false }
+          ]
+        },
+        {
+          "question": "A cat has four ...",
+          "options": [
+            { "text": "wings", "is_correct": false },
+            { "text": "hands", "is_correct": false },
+            { "text": "legs", "is_correct": true }
+          ]
+        },
+        {
+          "question": "What colour is the sky on a sunny day?",
+          "options": [
+            { "text": "blue", "is_correct": true },
+            { "text": "green", "is_correct": false },
+            { "text": "black", "is_correct": false }
+          ]
+        },
+        {
+          "question": "How many fingers are on one hand?",
+          "options": [
+            { "text": "four", "is_correct": false },
+            { "text": "five", "is_correct": true },
+            { "text": "ten", "is_correct": false }
+          ]
+        },
+        {
+          "question": "\"Hello! What's your name?\"",
+          "options": [
+            { "text": "I'm six.", "is_correct": false },
+            { "text": "It's red.", "is_correct": false },
+            { "text": "My name is Ben.", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Which one is an animal?",
+          "options": [
+            { "text": "rabbit", "is_correct": true },
+            { "text": "chair", "is_correct": false },
+            { "text": "pencil", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Which one is a fruit?",
+          "options": [
+            { "text": "bread", "is_correct": false },
+            { "text": "apple", "is_correct": true },
+            { "text": "milk", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Spell the word: c - a - t",
+          "options": [
+            { "text": "cut", "is_correct": false },
+            { "text": "cap", "is_correct": false },
+            { "text": "cat", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "topic_name": "Starters: Family, Body & School",
+      "description": "Vocabulary for family members, body parts, and classroom objects.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "My mother's mother is my ...",
+          "options": [
+            { "text": "grandmother", "is_correct": true },
+            { "text": "sister", "is_correct": false },
+            { "text": "aunt", "is_correct": false }
+          ]
+        },
+        {
+          "question": "We see with our ...",
+          "options": [
+            { "text": "ears", "is_correct": false },
+            { "text": "eyes", "is_correct": true },
+            { "text": "nose", "is_correct": false }
+          ]
+        },
+        {
+          "question": "We drink ...",
+          "options": [
+            { "text": "rice", "is_correct": false },
+            { "text": "book", "is_correct": false },
+            { "text": "water", "is_correct": true }
+          ]
+        },
+        {
+          "question": "My father's son is my ...",
+          "options": [
+            { "text": "brother", "is_correct": true },
+            { "text": "uncle", "is_correct": false },
+            { "text": "teacher", "is_correct": false }
+          ]
+        },
+        {
+          "question": "We write with a ...",
+          "options": [
+            { "text": "ruler", "is_correct": false },
+            { "text": "pencil", "is_correct": true },
+            { "text": "bag", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Which one is a school thing?",
+          "options": [
+            { "text": "banana", "is_correct": false },
+            { "text": "bed", "is_correct": false },
+            { "text": "book", "is_correct": true }
+          ]
+        },
+        {
+          "question": "We hear with our ...",
+          "options": [
+            { "text": "ears", "is_correct": true },
+            { "text": "hands", "is_correct": false },
+            { "text": "feet", "is_correct": false }
+          ]
+        },
+        {
+          "question": "I am thirsty. I want some ...",
+          "options": [
+            { "text": "bread", "is_correct": false },
+            { "text": "juice", "is_correct": true },
+            { "text": "sandwich", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Which one is a toy?",
+          "options": [
+            { "text": "spoon", "is_correct": false },
+            { "text": "sofa", "is_correct": false },
+            { "text": "ball", "is_correct": true }
+          ]
+        },
+        {
+          "question": "How many legs does a bird have?",
+          "options": [
+            { "text": "two", "is_correct": true },
+            { "text": "four", "is_correct": false },
+            { "text": "six", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "topic_name": "Starters: Grammar Basics",
+      "description": "Basic English grammar: to be (am/is/are), plurals, prepositions, and simple present.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "I ___ a girl.",
+          "options": [
+            { "text": "is", "is_correct": false },
+            { "text": "am", "is_correct": true },
+            { "text": "are", "is_correct": false }
+          ]
+        },
+        {
+          "question": "He ___ my friend.",
+          "options": [
+            { "text": "am", "is_correct": false },
+            { "text": "are", "is_correct": false },
+            { "text": "is", "is_correct": true }
+          ]
+        },
+        {
+          "question": "They ___ happy.",
+          "options": [
+            { "text": "are", "is_correct": true },
+            { "text": "is", "is_correct": false },
+            { "text": "am", "is_correct": false }
+          ]
+        },
+        {
+          "question": "One cat, two ___.",
+          "options": [
+            { "text": "cat", "is_correct": false },
+            { "text": "cats", "is_correct": true },
+            { "text": "cates", "is_correct": false }
+          ]
+        },
+        {
+          "question": "This ___ my book.",
+          "options": [
+            { "text": "are", "is_correct": false },
+            { "text": "be", "is_correct": false },
+            { "text": "is", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Fish live ___ water.",
+          "options": [
+            { "text": "in", "is_correct": true },
+            { "text": "on", "is_correct": false },
+            { "text": "at", "is_correct": false }
+          ]
+        },
+        {
+          "question": "___ you like pizza?",
+          "options": [
+            { "text": "Does", "is_correct": false },
+            { "text": "Do", "is_correct": true },
+            { "text": "Is", "is_correct": false }
+          ]
+        },
+        {
+          "question": "She ___ a cat.",
+          "options": [
+            { "text": "have", "is_correct": false },
+            { "text": "haves", "is_correct": false },
+            { "text": "has", "is_correct": true }
+          ]
+        },
+        {
+          "question": "I have ___ apple.",
+          "options": [
+            { "text": "an", "is_correct": true },
+            { "text": "a", "is_correct": false },
+            { "text": "many", "is_correct": false }
+          ]
+        },
+        {
+          "question": "There ___ three birds.",
+          "options": [
+            { "text": "is", "is_correct": false },
+            { "text": "are", "is_correct": true },
+            { "text": "am", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "topic_name": "Movers: Days, Months & Daily Life",
+      "description": "Days of the week, months, telling time, present continuous, and daily routines.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Monday, Tuesday, ___ .",
+          "options": [
+            { "text": "Friday", "is_correct": false },
+            { "text": "Sunday", "is_correct": false },
+            { "text": "Wednesday", "is_correct": true }
+          ]
+        },
+        {
+          "question": "The month after March is ...",
+          "options": [
+            { "text": "April", "is_correct": true },
+            { "text": "May", "is_correct": false },
+            { "text": "February", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Look! She ___ a book now.",
+          "options": [
+            { "text": "reads", "is_correct": false },
+            { "text": "is reading", "is_correct": true },
+            { "text": "read", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Every day I ___ to school.",
+          "options": [
+            { "text": "goes", "is_correct": false },
+            { "text": "going", "is_correct": false },
+            { "text": "go", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Fish ___ fly.",
+          "options": [
+            { "text": "can't", "is_correct": true },
+            { "text": "can", "is_correct": false },
+            { "text": "are", "is_correct": false }
+          ]
+        },
+        {
+          "question": "He ___ football on Saturdays.",
+          "options": [
+            { "text": "play", "is_correct": false },
+            { "text": "plays", "is_correct": true },
+            { "text": "playing", "is_correct": false }
+          ]
+        },
+        {
+          "question": "What time is it? (3:00)",
+          "options": [
+            { "text": "It's three years.", "is_correct": false },
+            { "text": "It's three apples.", "is_correct": false },
+            { "text": "It's three o'clock.", "is_correct": true }
+          ]
+        },
+        {
+          "question": "I ___ breakfast at seven.",
+          "options": [
+            { "text": "have", "is_correct": true },
+            { "text": "has", "is_correct": false },
+            { "text": "having", "is_correct": false }
+          ]
+        },
+        {
+          "question": "The opposite of \"hot\" is ...",
+          "options": [
+            { "text": "warm", "is_correct": false },
+            { "text": "cold", "is_correct": true },
+            { "text": "big", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Which one is a month?",
+          "options": [
+            { "text": "Monday", "is_correct": false },
+            { "text": "summer", "is_correct": false },
+            { "text": "June", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "topic_name": "Movers: Past, Comparing & Questions",
+      "description": "Simple past tense, comparatives/superlatives, and WH-questions.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "Yesterday I ___ to the zoo.",
+          "options": [
+            { "text": "went", "is_correct": true },
+            { "text": "go", "is_correct": false },
+            { "text": "goes", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Last week she ___ a cake.",
+          "options": [
+            { "text": "make", "is_correct": false },
+            { "text": "made", "is_correct": true },
+            { "text": "makes", "is_correct": false }
+          ]
+        },
+        {
+          "question": "An elephant is ___ than a mouse.",
+          "options": [
+            { "text": "big", "is_correct": false },
+            { "text": "biggest", "is_correct": false },
+            { "text": "bigger", "is_correct": true }
+          ]
+        },
+        {
+          "question": "___ is your birthday? It's in May.",
+          "options": [
+            { "text": "When", "is_correct": true },
+            { "text": "Where", "is_correct": false },
+            { "text": "Who", "is_correct": false }
+          ]
+        },
+        {
+          "question": "___ is she? She is in the kitchen.",
+          "options": [
+            { "text": "What", "is_correct": false },
+            { "text": "Where", "is_correct": true },
+            { "text": "Who", "is_correct": false }
+          ]
+        },
+        {
+          "question": "___ is that man? He is my uncle.",
+          "options": [
+            { "text": "When", "is_correct": false },
+            { "text": "How", "is_correct": false },
+            { "text": "Who", "is_correct": true }
+          ]
+        },
+        {
+          "question": "The past of \"play\" is ...",
+          "options": [
+            { "text": "played", "is_correct": true },
+            { "text": "plays", "is_correct": false },
+            { "text": "playing", "is_correct": false }
+          ]
+        },
+        {
+          "question": "A cheetah is the ___ animal.",
+          "options": [
+            { "text": "faster", "is_correct": false },
+            { "text": "fastest", "is_correct": true },
+            { "text": "fast", "is_correct": false }
+          ]
+        },
+        {
+          "question": "How ___ apples do you have?",
+          "options": [
+            { "text": "much", "is_correct": false },
+            { "text": "old", "is_correct": false },
+            { "text": "many", "is_correct": true }
+          ]
+        },
+        {
+          "question": "I ___ watch TV last night.",
+          "options": [
+            { "text": "didn't", "is_correct": true },
+            { "text": "don't", "is_correct": false },
+            { "text": "doesn't", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "topic_name": "Flyers: Reading & Grammar Challenge",
+      "description": "Reading comprehension challenge, future tense, conditionals, and conversational English.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "[Reading: Tom is eight years old. He lives in a small house near the sea. Every Saturday, he goes to the beach with his dad. They build sandcastles and swim. Tom's favourite food is ice cream.] How old is Tom?",
+          "options": [
+            { "text": "ten", "is_correct": false },
+            { "text": "eight", "is_correct": true },
+            { "text": "six", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Where does Tom live?",
+          "options": [
+            { "text": "in a big city", "is_correct": false },
+            { "text": "in a castle", "is_correct": false },
+            { "text": "near the sea", "is_correct": true }
+          ]
+        },
+        {
+          "question": "When does Tom go to the beach?",
+          "options": [
+            { "text": "every Saturday", "is_correct": true },
+            { "text": "every Monday", "is_correct": false },
+            { "text": "every night", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Who goes to the beach with Tom?",
+          "options": [
+            { "text": "his teacher", "is_correct": false },
+            { "text": "his dad", "is_correct": true },
+            { "text": "his sister", "is_correct": false }
+          ]
+        },
+        {
+          "question": "What is Tom's favourite food?",
+          "options": [
+            { "text": "pizza", "is_correct": false },
+            { "text": "rice", "is_correct": false },
+            { "text": "ice cream", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Tomorrow I ___ visit my grandma.",
+          "options": [
+            { "text": "am going to", "is_correct": true },
+            { "text": "went to", "is_correct": false },
+            { "text": "go to", "is_correct": false }
+          ]
+        },
+        {
+          "question": "If it rains, we ___ stay at home.",
+          "options": [
+            { "text": "did", "is_correct": false },
+            { "text": "will", "is_correct": true },
+            { "text": "are", "is_correct": false }
+          ]
+        },
+        {
+          "question": "She is good ___ swimming.",
+          "options": [
+            { "text": "in", "is_correct": false },
+            { "text": "on", "is_correct": false },
+            { "text": "at", "is_correct": true }
+          ]
+        },
+        {
+          "question": "\"Can I borrow your pen?\"",
+          "options": [
+            { "text": "Yes, sure.", "is_correct": true },
+            { "text": "No, I'm eight.", "is_correct": false },
+            { "text": "It's blue.", "is_correct": false }
+          ]
+        },
+        {
+          "question": "The opposite of \"boring\" is ...",
+          "options": [
+            { "text": "sleepy", "is_correct": false },
+            { "text": "exciting", "is_correct": true },
+            { "text": "long", "is_correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

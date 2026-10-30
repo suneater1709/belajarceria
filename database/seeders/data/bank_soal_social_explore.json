@@ -1,0 +1,540 @@
+{
+  "module_code": "ips",
+  "levels": [
+    {
+      "level": 1,
+      "topic_name": "Adab dan Akhlak Sehari-hari",
+      "description": "Adab harian seorang muslim: salam, makan, bersin, berbuat baik kepada orang tua, dan memaafkan.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "Ucapan saat bertemu sesama muslim adalah ...",
+          "options": [
+            { "text": "Selamat tidur", "is_correct": false },
+            { "text": "Assalamu'alaikum", "is_correct": true },
+            { "text": "Sampai jumpa", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Jawaban dari salam adalah ...",
+          "options": [
+            { "text": "Alhamdulillah", "is_correct": false },
+            { "text": "Bismillah", "is_correct": false },
+            { "text": "Wa'alaikumussalam", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Sebelum makan kita membaca ...",
+          "options": [
+            { "text": "Bismillah", "is_correct": true },
+            { "text": "Alhamdulillah", "is_correct": false },
+            { "text": "Astaghfirullah", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Sesudah makan kita mengucapkan ...",
+          "options": [
+            { "text": "Bismillah", "is_correct": false },
+            { "text": "Alhamdulillah", "is_correct": true },
+            { "text": "Insya Allah", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Makan dan minum menggunakan tangan ...",
+          "options": [
+            { "text": "kiri", "is_correct": false },
+            { "text": "dua-duanya sekaligus", "is_correct": false },
+            { "text": "kanan", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Kepada orang tua kita harus ...",
+          "options": [
+            { "text": "hormat dan sopan", "is_correct": true },
+            { "text": "berteriak", "is_correct": false },
+            { "text": "tidak peduli", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Setelah menerima hadiah, kita ...",
+          "options": [
+            { "text": "diam saja", "is_correct": false },
+            { "text": "mengucap terima kasih", "is_correct": true },
+            { "text": "marah", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Saat bersin kita mengucapkan ...",
+          "options": [
+            { "text": "Bismillah", "is_correct": false },
+            { "text": "Subhanallah", "is_correct": false },
+            { "text": "Alhamdulillah", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Jika berbuat salah, kita ...",
+          "options": [
+            { "text": "meminta maaf", "is_correct": true },
+            { "text": "menyalahkan teman", "is_correct": false },
+            { "text": "diam saja", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Sebelum tidur kita sebaiknya ...",
+          "options": [
+            { "text": "berlari", "is_correct": false },
+            { "text": "berdoa", "is_correct": true },
+            { "text": "bermain keras", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "topic_name": "Rukun Islam dan Rukun Iman",
+      "description": "Dasar akidah Islam: jumlah rukun Islam dan iman, kitab suci, malaikat, dan kewajiban utama.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "Rukun Islam ada berapa?",
+          "options": [
+            { "text": "6", "is_correct": false },
+            { "text": "4", "is_correct": false },
+            { "text": "5", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Rukun Iman ada berapa?",
+          "options": [
+            { "text": "6", "is_correct": true },
+            { "text": "5", "is_correct": false },
+            { "text": "7", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Rukun Islam yang pertama adalah ...",
+          "options": [
+            { "text": "zakat", "is_correct": false },
+            { "text": "syahadat", "is_correct": true },
+            { "text": "puasa", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Kitab suci umat Islam adalah ...",
+          "options": [
+            { "text": "Injil", "is_correct": false },
+            { "text": "Taurat", "is_correct": false },
+            { "text": "Al-Qur'an", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Pencipta langit dan bumi adalah ...",
+          "options": [
+            { "text": "Allah", "is_correct": true },
+            { "text": "manusia", "is_correct": false },
+            { "text": "malaikat", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Malaikat yang menyampaikan wahyu adalah ...",
+          "options": [
+            { "text": "Mikail", "is_correct": false },
+            { "text": "Jibril", "is_correct": true },
+            { "text": "Izrail", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Malaikat pencabut nyawa adalah ...",
+          "options": [
+            { "text": "Jibril", "is_correct": false },
+            { "text": "Israfil", "is_correct": false },
+            { "text": "Izrail", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Sholat wajib dalam sehari semalam ada ...",
+          "options": [
+            { "text": "5 kali", "is_correct": true },
+            { "text": "3 kali", "is_correct": false },
+            { "text": "7 kali", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Bulan untuk berpuasa wajib adalah bulan ...",
+          "options": [
+            { "text": "Syawal", "is_correct": false },
+            { "text": "Ramadhan", "is_correct": true },
+            { "text": "Muharram", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Al-Qur'an diturunkan kepada Nabi ...",
+          "options": [
+            { "text": "Musa", "is_correct": false },
+            { "text": "Isa", "is_correct": false },
+            { "text": "Muhammad", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "topic_name": "Kisah Para Nabi",
+      "description": "Kisah keteladanan para nabi dan mukjizat yang dianugerahkan Allah.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Nabi yang pertama adalah ...",
+          "options": [
+            { "text": "Nabi Adam", "is_correct": true },
+            { "text": "Nabi Nuh", "is_correct": false },
+            { "text": "Nabi Muhammad", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Nabi yang membuat kapal besar adalah ...",
+          "options": [
+            { "text": "Nabi Ibrahim", "is_correct": false },
+            { "text": "Nabi Nuh", "is_correct": true },
+            { "text": "Nabi Yusuf", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Nabi yang dibakar api tetapi selamat adalah ...",
+          "options": [
+            { "text": "Nabi Musa", "is_correct": false },
+            { "text": "Nabi Daud", "is_correct": false },
+            { "text": "Nabi Ibrahim", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Nabi yang menghadapi Fir'aun dan membelah laut adalah ...",
+          "options": [
+            { "text": "Nabi Musa", "is_correct": true },
+            { "text": "Nabi Isa", "is_correct": false },
+            { "text": "Nabi Yunus", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Nabi yang ditelan ikan besar adalah ...",
+          "options": [
+            { "text": "Nabi Nuh", "is_correct": false },
+            { "text": "Nabi Yunus", "is_correct": true },
+            { "text": "Nabi Ayub", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Nabi yang bisa berbicara dengan hewan adalah ...",
+          "options": [
+            { "text": "Nabi Adam", "is_correct": false },
+            { "text": "Nabi Yusuf", "is_correct": false },
+            { "text": "Nabi Sulaiman", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Nabi yang terakhir adalah ...",
+          "options": [
+            { "text": "Nabi Muhammad", "is_correct": true },
+            { "text": "Nabi Isa", "is_correct": false },
+            { "text": "Nabi Ibrahim", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Nabi Muhammad lahir di kota ...",
+          "options": [
+            { "text": "Madinah", "is_correct": false },
+            { "text": "Mekah", "is_correct": true },
+            { "text": "Kairo", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ayah dari Nabi Ismail adalah ...",
+          "options": [
+            { "text": "Nabi Nuh", "is_correct": false },
+            { "text": "Nabi Yakub", "is_correct": false },
+            { "text": "Nabi Ibrahim", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Nabi Yusuf dikenal sebagai nabi yang ...",
+          "options": [
+            { "text": "tampan dan penyabar", "is_correct": true },
+            { "text": "pembuat kapal", "is_correct": false },
+            { "text": "pandai besi", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "topic_name": "Ibadah dan Hari Besar Islam",
+      "description": "Pelaksanaan sholat, wudhu, puasa, haji, dan perayaan hari besar Islam.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Sebelum sholat, kita bersuci dengan ...",
+          "options": [
+            { "text": "bermain air", "is_correct": false },
+            { "text": "wudhu", "is_correct": true },
+            { "text": "tidur", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Rukun Islam yang ketiga adalah ...",
+          "options": [
+            { "text": "puasa", "is_correct": false },
+            { "text": "haji", "is_correct": false },
+            { "text": "zakat", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Sholat Subuh terdiri dari ... rakaat.",
+          "options": [
+            { "text": "2", "is_correct": true },
+            { "text": "3", "is_correct": false },
+            { "text": "4", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Sholat Maghrib terdiri dari ... rakaat.",
+          "options": [
+            { "text": "2", "is_correct": false },
+            { "text": "3", "is_correct": true },
+            { "text": "4", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Saat sholat kita menghadap ...",
+          "options": [
+            { "text": "utara", "is_correct": false },
+            { "text": "timur", "is_correct": false },
+            { "text": "kiblat (Ka'bah)", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Waktu berbuka puasa adalah saat ...",
+          "options": [
+            { "text": "Maghrib", "is_correct": true },
+            { "text": "Subuh", "is_correct": false },
+            { "text": "Dzuhur", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Hari raya setelah bulan Ramadhan adalah ...",
+          "options": [
+            { "text": "Idul Adha", "is_correct": false },
+            { "text": "Idul Fitri", "is_correct": true },
+            { "text": "Maulid Nabi", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Hari raya kurban adalah ...",
+          "options": [
+            { "text": "Idul Fitri", "is_correct": false },
+            { "text": "Isra Mi'raj", "is_correct": false },
+            { "text": "Idul Adha", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Setelah niat, anggota wudhu yang pertama dibasuh adalah ...",
+          "options": [
+            { "text": "wajah", "is_correct": true },
+            { "text": "kaki", "is_correct": false },
+            { "text": "telinga", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ibadah yang dilakukan di Mekah adalah ...",
+          "options": [
+            { "text": "zakat", "is_correct": false },
+            { "text": "haji", "is_correct": true },
+            { "text": "puasa", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "topic_name": "Budaya Nusantara",
+      "description": "Mengenal keragaman rumah adat, tarian tradisional, alat musik, dan nilai kebangsaan Indonesia.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "Rumah adat Minangkabau bernama ...",
+          "options": [
+            { "text": "Joglo", "is_correct": false },
+            { "text": "Honai", "is_correct": false },
+            { "text": "Rumah Gadang", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Tari Pendet berasal dari ...",
+          "options": [
+            { "text": "Bali", "is_correct": true },
+            { "text": "Aceh", "is_correct": false },
+            { "text": "Papua", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Tari Saman berasal dari ...",
+          "options": [
+            { "text": "Bali", "is_correct": false },
+            { "text": "Aceh", "is_correct": true },
+            { "text": "Papua", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Alat musik angklung berasal dari ...",
+          "options": [
+            { "text": "Sumatera Utara", "is_correct": false },
+            { "text": "Papua", "is_correct": false },
+            { "text": "Jawa Barat", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Kain batik terkenal dari pulau ...",
+          "options": [
+            { "text": "Jawa", "is_correct": true },
+            { "text": "Kalimantan", "is_correct": false },
+            { "text": "Sulawesi", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Semboyan bangsa Indonesia adalah ...",
+          "options": [
+            { "text": "Pancasila", "is_correct": false },
+            { "text": "Bhinneka Tunggal Ika", "is_correct": true },
+            { "text": "Merdeka", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Gotong royong artinya ...",
+          "options": [
+            { "text": "bekerja sendiri", "is_correct": false },
+            { "text": "bermain sendirian", "is_correct": false },
+            { "text": "bekerja bersama-sama", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Burung pada lambang negara Indonesia adalah ...",
+          "options": [
+            { "text": "Garuda", "is_correct": true },
+            { "text": "Merpati", "is_correct": false },
+            { "text": "Elang", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Sila pertama Pancasila adalah ...",
+          "options": [
+            { "text": "Persatuan Indonesia", "is_correct": false },
+            { "text": "Ketuhanan Yang Maha Esa", "is_correct": true },
+            { "text": "Keadilan Sosial", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Hari kemerdekaan Indonesia diperingati tanggal ...",
+          "options": [
+            { "text": "1 Juni", "is_correct": false },
+            { "text": "28 Oktober", "is_correct": false },
+            { "text": "17 Agustus", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "topic_name": "Budaya Dunia dan Toleransi",
+      "description": "Wawasan ikon dunia, pakaian & makanan mancanegara, serta sikap saling menghargai perbedaan.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "Ka'bah terletak di kota ...",
+          "options": [
+            { "text": "Mekah", "is_correct": true },
+            { "text": "Madinah", "is_correct": false },
+            { "text": "Jakarta", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Menara Eiffel ada di negara ...",
+          "options": [
+            { "text": "Jepang", "is_correct": false },
+            { "text": "Prancis", "is_correct": true },
+            { "text": "Mesir", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Pakaian tradisional kimono berasal dari ...",
+          "options": [
+            { "text": "India", "is_correct": false },
+            { "text": "Mesir", "is_correct": false },
+            { "text": "Jepang", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Piramida yang terkenal ada di negara ...",
+          "options": [
+            { "text": "Mesir", "is_correct": true },
+            { "text": "Jepang", "is_correct": false },
+            { "text": "Brasil", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Sushi adalah makanan khas negara ...",
+          "options": [
+            { "text": "Italia", "is_correct": false },
+            { "text": "Jepang", "is_correct": true },
+            { "text": "Meksiko", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Jika teman berbeda agama sedang beribadah, kita ...",
+          "options": [
+            { "text": "mengejeknya", "is_correct": false },
+            { "text": "mengganggunya", "is_correct": false },
+            { "text": "menghormatinya", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Perbedaan suku dan budaya adalah ...",
+          "options": [
+            { "text": "kekayaan yang harus dihargai", "is_correct": true },
+            { "text": "masalah", "is_correct": false },
+            { "text": "kesalahan", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Al-Qur'an diturunkan dalam bahasa ...",
+          "options": [
+            { "text": "Indonesia", "is_correct": false },
+            { "text": "Arab", "is_correct": true },
+            { "text": "Inggris", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Nabi Muhammad hijrah dari Mekah ke kota ...",
+          "options": [
+            { "text": "Jeddah", "is_correct": false },
+            { "text": "Kairo", "is_correct": false },
+            { "text": "Madinah", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Tembok Besar terdapat di negara ...",
+          "options": [
+            { "text": "Tiongkok", "is_correct": true },
+            { "text": "Jepang", "is_correct": false },
+            { "text": "Peru", "is_correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

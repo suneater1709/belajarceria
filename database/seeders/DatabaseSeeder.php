@@ -584,5 +584,8 @@ class DatabaseSeeder extends Seeder
             'stars' => 2,
             'created_at' => now()->subHour(),
         ]);
+
+        // 6. Bank Soal Lengkap dari Dokumen PDF (36 Topik & 360 Soal)
+        $this->call(PdfBankSoalSeeder::class);
     }
 }

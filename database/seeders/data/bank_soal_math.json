@@ -1,0 +1,540 @@
+{
+  "module_code": "matematika",
+  "levels": [
+    {
+      "level": 1,
+      "topic_name": "Number Bond dan Bilangan sampai 20",
+      "description": "Konsep pasangan bilangan jumlah 10 (number bonds), perbandingan, dan urutan angka hingga 20.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "3 + ? = 10",
+          "options": [
+            { "text": "6", "is_correct": false },
+            { "text": "8", "is_correct": false },
+            { "text": "7", "is_correct": true }
+          ]
+        },
+        {
+          "question": "6 + 4 = ?",
+          "options": [
+            { "text": "10", "is_correct": true },
+            { "text": "9", "is_correct": false },
+            { "text": "11", "is_correct": false }
+          ]
+        },
+        {
+          "question": "5 + 5 = ?",
+          "options": [
+            { "text": "11", "is_correct": false },
+            { "text": "10", "is_correct": true },
+            { "text": "9", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Pasangan bilangan yang jumlahnya 10 adalah ...",
+          "options": [
+            { "text": "3 dan 5", "is_correct": false },
+            { "text": "2 dan 9", "is_correct": false },
+            { "text": "4 dan 6", "is_correct": true }
+          ]
+        },
+        {
+          "question": "10 − 3 = ?",
+          "options": [
+            { "text": "7", "is_correct": true },
+            { "text": "6", "is_correct": false },
+            { "text": "8", "is_correct": false }
+          ]
+        },
+        {
+          "question": "9 − 4 = ?",
+          "options": [
+            { "text": "6", "is_correct": false },
+            { "text": "5", "is_correct": true },
+            { "text": "4", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Bilangan setelah 14 adalah ...",
+          "options": [
+            { "text": "13", "is_correct": false },
+            { "text": "16", "is_correct": false },
+            { "text": "15", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Bilangan sebelum 20 adalah ...",
+          "options": [
+            { "text": "19", "is_correct": true },
+            { "text": "18", "is_correct": false },
+            { "text": "21", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Bilangan yang paling besar: 12, 17, 9 adalah ...",
+          "options": [
+            { "text": "12", "is_correct": false },
+            { "text": "17", "is_correct": true },
+            { "text": "9", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ani punya 4 apel. Ibu memberi 3 apel lagi. Semua apel Ani ada ...",
+          "options": [
+            { "text": "6", "is_correct": false },
+            { "text": "8", "is_correct": false },
+            { "text": "7", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "topic_name": "Tambah dan Kurang sampai 100",
+      "description": "Operasi penjumlahan dan pengurangan bilangan puluhan dan satuan sampai 100.",
+      "difficulty": "mudah",
+      "min_age_level": "4-5",
+      "questions": [
+        {
+          "question": "8 + 5 = ?",
+          "options": [
+            { "text": "13", "is_correct": true },
+            { "text": "12", "is_correct": false },
+            { "text": "14", "is_correct": false }
+          ]
+        },
+        {
+          "question": "9 + 6 = ?",
+          "options": [
+            { "text": "14", "is_correct": false },
+            { "text": "15", "is_correct": true },
+            { "text": "16", "is_correct": false }
+          ]
+        },
+        {
+          "question": "7 + 8 = ?",
+          "options": [
+            { "text": "14", "is_correct": false },
+            { "text": "16", "is_correct": false },
+            { "text": "15", "is_correct": true }
+          ]
+        },
+        {
+          "question": "13 − 5 = ?",
+          "options": [
+            { "text": "8", "is_correct": true },
+            { "text": "7", "is_correct": false },
+            { "text": "9", "is_correct": false }
+          ]
+        },
+        {
+          "question": "15 − 7 = ?",
+          "options": [
+            { "text": "9", "is_correct": false },
+            { "text": "8", "is_correct": true },
+            { "text": "7", "is_correct": false }
+          ]
+        },
+        {
+          "question": "20 + 30 = ?",
+          "options": [
+            { "text": "40", "is_correct": false },
+            { "text": "60", "is_correct": false },
+            { "text": "50", "is_correct": true }
+          ]
+        },
+        {
+          "question": "45 + 20 = ?",
+          "options": [
+            { "text": "65", "is_correct": true },
+            { "text": "55", "is_correct": false },
+            { "text": "75", "is_correct": false }
+          ]
+        },
+        {
+          "question": "70 − 30 = ?",
+          "options": [
+            { "text": "30", "is_correct": false },
+            { "text": "40", "is_correct": true },
+            { "text": "50", "is_correct": false }
+          ]
+        },
+        {
+          "question": "36 + 12 = ?",
+          "options": [
+            { "text": "46", "is_correct": false },
+            { "text": "58", "is_correct": false },
+            { "text": "48", "is_correct": true }
+          ]
+        },
+        {
+          "question": "58 − 20 = ?",
+          "options": [
+            { "text": "38", "is_correct": true },
+            { "text": "48", "is_correct": false },
+            { "text": "28", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "topic_name": "Perkalian dan Pembagian Dasar",
+      "description": "Konsep perkalian sebagai penjumlahan berulang dan pembagian sebagai pembagian sama rata.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "2 × 5 = ?",
+          "options": [
+            { "text": "7", "is_correct": false },
+            { "text": "10", "is_correct": true },
+            { "text": "12", "is_correct": false }
+          ]
+        },
+        {
+          "question": "3 × 4 = ?",
+          "options": [
+            { "text": "7", "is_correct": false },
+            { "text": "9", "is_correct": false },
+            { "text": "12", "is_correct": true }
+          ]
+        },
+        {
+          "question": "5 × 6 = ?",
+          "options": [
+            { "text": "30", "is_correct": true },
+            { "text": "25", "is_correct": false },
+            { "text": "35", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ada 4 piring, tiap piring berisi 3 apel. Jumlah apel semuanya ...",
+          "options": [
+            { "text": "7", "is_correct": false },
+            { "text": "12", "is_correct": true },
+            { "text": "10", "is_correct": false }
+          ]
+        },
+        {
+          "question": "10 ÷ 2 = ?",
+          "options": [
+            { "text": "8", "is_correct": false },
+            { "text": "12", "is_correct": false },
+            { "text": "5", "is_correct": true }
+          ]
+        },
+        {
+          "question": "12 ÷ 3 = ?",
+          "options": [
+            { "text": "4", "is_correct": true },
+            { "text": "3", "is_correct": false },
+            { "text": "9", "is_correct": false }
+          ]
+        },
+        {
+          "question": "20 ÷ 4 = ?",
+          "options": [
+            { "text": "16", "is_correct": false },
+            { "text": "5", "is_correct": true },
+            { "text": "80", "is_correct": false }
+          ]
+        },
+        {
+          "question": "6 × 6 = ?",
+          "options": [
+            { "text": "12", "is_correct": false },
+            { "text": "42", "is_correct": false },
+            { "text": "36", "is_correct": true }
+          ]
+        },
+        {
+          "question": "9 × 3 = ?",
+          "options": [
+            { "text": "27", "is_correct": true },
+            { "text": "12", "is_correct": false },
+            { "text": "24", "is_correct": false }
+          ]
+        },
+        {
+          "question": "18 permen dibagi sama rata untuk 3 anak. Tiap anak mendapat ...",
+          "options": [
+            { "text": "5", "is_correct": false },
+            { "text": "6", "is_correct": true },
+            { "text": "15", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 4,
+      "topic_name": "Pecahan, Bangun, dan Pengukuran",
+      "description": "Pengenalan pecahan dasar, satuan panjang & waktu, serta luas dan keliling sederhana.",
+      "difficulty": "sedang",
+      "min_age_level": "6-7",
+      "questions": [
+        {
+          "question": "Pizza dipotong 4 bagian sama besar. Dimakan 1 bagian. Pecahannya ...",
+          "options": [
+            { "text": "1/2", "is_correct": false },
+            { "text": "4/1", "is_correct": false },
+            { "text": "1/4", "is_correct": true }
+          ]
+        },
+        {
+          "question": "1/2 + 1/2 = ?",
+          "options": [
+            { "text": "1", "is_correct": true },
+            { "text": "1/4", "is_correct": false },
+            { "text": "2", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Pecahan yang paling besar adalah ...",
+          "options": [
+            { "text": "1/4", "is_correct": false },
+            { "text": "1/2", "is_correct": true },
+            { "text": "1/8", "is_correct": false }
+          ]
+        },
+        {
+          "question": "1 meter = ... cm",
+          "options": [
+            { "text": "10", "is_correct": false },
+            { "text": "1000", "is_correct": false },
+            { "text": "100", "is_correct": true }
+          ]
+        },
+        {
+          "question": "1 jam = ... menit",
+          "options": [
+            { "text": "60", "is_correct": true },
+            { "text": "100", "is_correct": false },
+            { "text": "30", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Persegi panjang panjang 5 cm, lebar 3 cm. Kelilingnya ...",
+          "options": [
+            { "text": "15 cm", "is_correct": false },
+            { "text": "16 cm", "is_correct": true },
+            { "text": "8 cm", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Persegi dengan sisi 4 cm. Luasnya ...",
+          "options": [
+            { "text": "8 cm²", "is_correct": false },
+            { "text": "12 cm²", "is_correct": false },
+            { "text": "16 cm²", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Segi enam punya ... sisi.",
+          "options": [
+            { "text": "6", "is_correct": true },
+            { "text": "5", "is_correct": false },
+            { "text": "8", "is_correct": false }
+          ]
+        },
+        {
+          "question": "1 kg = ... gram",
+          "options": [
+            { "text": "100", "is_correct": false },
+            { "text": "1.000", "is_correct": true },
+            { "text": "10", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Setengah dari 20 adalah ...",
+          "options": [
+            { "text": "5", "is_correct": false },
+            { "text": "40", "is_correct": false },
+            { "text": "10", "is_correct": true }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 5,
+      "topic_name": "Soal Cerita dan Bar Model",
+      "description": "Penyelesaian soal cerita kontekstual (uang, kelereng, permen, waktu) dengan model logika.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "Ani punya 25 kelereng, lalu membeli 17 lagi. Semuanya ada ...",
+          "options": [
+            { "text": "42", "is_correct": true },
+            { "text": "32", "is_correct": false },
+            { "text": "52", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ada 50 permen. 18 permen dimakan. Sisanya ...",
+          "options": [
+            { "text": "28", "is_correct": false },
+            { "text": "32", "is_correct": true },
+            { "text": "38", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Satu pensil harganya Rp2.000. Harga 5 pensil ...",
+          "options": [
+            { "text": "Rp7.000", "is_correct": false },
+            { "text": "Rp12.000", "is_correct": false },
+            { "text": "Rp10.000", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Ayah punya Rp50.000, membeli bakso Rp35.000. Sisa uang Ayah ...",
+          "options": [
+            { "text": "Rp15.000", "is_correct": true },
+            { "text": "Rp25.000", "is_correct": false },
+            { "text": "Rp85.000", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Budi punya 12 stiker. Ani punya 5 stiker lebih banyak dari Budi. Stiker Ani ada ...",
+          "options": [
+            { "text": "7", "is_correct": false },
+            { "text": "17", "is_correct": true },
+            { "text": "60", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Rina dan Dina punya 30 kelereng. Rina punya 18. Dina punya ...",
+          "options": [
+            { "text": "48", "is_correct": false },
+            { "text": "14", "is_correct": false },
+            { "text": "12", "is_correct": true }
+          ]
+        },
+        {
+          "question": "4 kantong, tiap kantong 6 jeruk. Lalu 5 jeruk dimakan. Sisa jeruk ...",
+          "options": [
+            { "text": "19", "is_correct": true },
+            { "text": "29", "is_correct": false },
+            { "text": "10", "is_correct": false }
+          ]
+        },
+        {
+          "question": "28 siswa dibagi menjadi 4 kelompok sama banyak. Tiap kelompok ada ...",
+          "options": [
+            { "text": "6", "is_correct": false },
+            { "text": "7", "is_correct": true },
+            { "text": "8", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Film mulai pukul 3 dan berlangsung 2 jam. Film selesai pukul ...",
+          "options": [
+            { "text": "6", "is_correct": false },
+            { "text": "4", "is_correct": false },
+            { "text": "5", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Ibu membeli 3 kg apel dan 2 kg jeruk. Total buah ...",
+          "options": [
+            { "text": "5 kg", "is_correct": true },
+            { "text": "6 kg", "is_correct": false },
+            { "text": "1 kg", "is_correct": false }
+          ]
+        }
+      ]
+    },
+    {
+      "level": 6,
+      "topic_name": "Tantangan Hitung Super",
+      "description": "Operasi hitung campuran (Kabataku), pembulatan, nilai tempat, dan soal pemecahan masalah.",
+      "difficulty": "sulit",
+      "min_age_level": "8",
+      "questions": [
+        {
+          "question": "4 + 3 × 2 = ?",
+          "options": [
+            { "text": "14", "is_correct": false },
+            { "text": "10", "is_correct": true },
+            { "text": "24", "is_correct": false }
+          ]
+        },
+        {
+          "question": "(4 + 3) × 2 = ?",
+          "options": [
+            { "text": "10", "is_correct": false },
+            { "text": "9", "is_correct": false },
+            { "text": "14", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Bilangan ganjil setelah 17 adalah ...",
+          "options": [
+            { "text": "19", "is_correct": true },
+            { "text": "18", "is_correct": false },
+            { "text": "20", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Pada bilangan 352, angka 5 menempati nilai tempat ...",
+          "options": [
+            { "text": "satuan", "is_correct": false },
+            { "text": "puluhan", "is_correct": true },
+            { "text": "ratusan", "is_correct": false }
+          ]
+        },
+        {
+          "question": "250 + 150 = ?",
+          "options": [
+            { "text": "300", "is_correct": false },
+            { "text": "410", "is_correct": false },
+            { "text": "400", "is_correct": true }
+          ]
+        },
+        {
+          "question": "1.000 − 250 = ?",
+          "options": [
+            { "text": "750", "is_correct": true },
+            { "text": "850", "is_correct": false },
+            { "text": "650", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Ada bebek dan kelinci, jumlahnya 5 ekor, kaki semuanya 14. Kelinci ada ... ekor.",
+          "options": [
+            { "text": "3", "is_correct": false },
+            { "text": "2", "is_correct": true },
+            { "text": "4", "is_correct": false }
+          ]
+        },
+        {
+          "question": "47 dibulatkan ke puluhan terdekat menjadi ...",
+          "options": [
+            { "text": "40", "is_correct": false },
+            { "text": "45", "is_correct": false },
+            { "text": "50", "is_correct": true }
+          ]
+        },
+        {
+          "question": "Dua bilangan berjumlah 12 dan selisihnya 2. Bilangan itu ...",
+          "options": [
+            { "text": "7 dan 5", "is_correct": true },
+            { "text": "6 dan 6", "is_correct": false },
+            { "text": "8 dan 4", "is_correct": false }
+          ]
+        },
+        {
+          "question": "Bilangan apa jika dikali 3 hasilnya 21?",
+          "options": [
+            { "text": "8", "is_correct": false },
+            { "text": "7", "is_correct": true },
+            { "text": "6", "is_correct": false }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
